@@ -49,8 +49,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 .cta-donate-text:hover, .cta-donate-text:focus {
     color: rgb(253, 224, 111);
+    text-decoration: underline;
 }
 
+/* Blockquotes section */
+.blockquote {
+    margin-top: 20px;
+    text-align: center;
+    border-top: 2px solid rgba(103, 141, 88, 0.8);
+    border-bottom: 2px solid rgba(103, 141, 88, 0.8);
+}
+
+/* footer */
+.bg-footer-inner-wrapper {
+    background-color: #386fa4;
+    color: #fff;
+}
 
 
 
