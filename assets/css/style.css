@@ -5,3 +5,19 @@ Source Sans-Pro - Light/300 Regular/400 Semi-Bold/600 Bold/700
 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
 
+/* colour scheme values 
+Light Cornflower Blue: #9cd5f4
+Naples Yellow: #fde06f
+Indigo Dye: #133c55
+Honolulu Blue: #386fa4
+Russian Green: #678d58
+*/
+
+/* Base body, paragraph and link values */
+body, p, a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.125rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif; ;
+}
