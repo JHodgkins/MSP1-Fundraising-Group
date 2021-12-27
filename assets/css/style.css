@@ -6,11 +6,11 @@ Source Sans-Pro - Light/300 Regular/400 Semi-Bold/600 Bold/700
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
 
 /* colour scheme values 
-Light Cornflower Blue: #9cd5f4
-Naples Yellow: #fde06f
+Light Cornflower Blue: #9cd5f4 / rgb(100, 149, 237)
+Naples Yellow: #fde06f / rgb(253, 224, 111)
 Indigo Dye: #133c55
 Honolulu Blue: #386fa4
-Russian Green: #678d58
+Russian Green: #678d58 / rgb(103, 141, 88)
 */
 
 /* Base body, paragraph and link values */
@@ -21,3 +21,40 @@ body, p, a {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif; ;
 }
+
+/* Navigation */
+.bg-header-wrapper {
+    border-bottom: 1px solid rgba(103, 141, 88, 0.8);
+}
+.nav-link.active {
+    border-bottom: 2px solid rgb(100, 149, 237, 0.9);
+}
+
+/* Jumbotron/Hero section */
+.bg-hero-wrapper {
+    background-color: white;
+}
+.jumbotron-box {    
+    background: url("../images/Group_image_hero_image.jpg") no-repeat;
+    background-color: #fff;
+    background-position: center center;
+    background-size: cover;
+}
+.jumbotron-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+.cta-donate-text {
+    color: #fff;
+}
+.cta-donate-text:hover, .cta-donate-text:focus {
+    color: rgb(253, 224, 111);
+}
+
+
+
+
+
+
+
+
