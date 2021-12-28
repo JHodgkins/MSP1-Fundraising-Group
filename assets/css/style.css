@@ -21,8 +21,14 @@ body, p, a {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif; ;
 }
+
+/* utility classes */
 .text-white {
     color: #fff;
+}
+.card-margin {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* Navigation */
@@ -78,6 +84,18 @@ h1, h2, h3, h4, h5, h6 {
     border-top: 2px solid rgba(103, 141, 88, 0.8);
     border-bottom: 2px solid rgba(103, 141, 88, 0.8);
 }
+
+/* main content area / Homepage */
+.bg-main-wrapper {}
+.bg-main-inner-wrapper {
+    background-color: rgba(100, 149, 237, 0.5);
+    padding-top: 20px;
+}
+.card-icons-main {
+    font-size: 7rem;
+    margin: 1rem auto;
+}
+
 
 
 /* secondary content area - / Homepage */
