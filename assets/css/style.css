@@ -76,6 +76,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fff;
     background-position: center center;
     background-size: cover;
+    min-height: 400px;
 } 
 .jumbotron-overlay {
     background-color: rgba(0, 0, 0, 0.7);
@@ -83,6 +84,7 @@ h1, h2, h3, h4, h5, h6 {
     animation-name: jumbotron-zoom-image;
     animation-duration: 2s;
     animation-fill-mode: forwards;
+    min-height: 200px;
 }
 /* jumbotron overlay animation */
 @keyframes jumbotron-zoom-image {
@@ -92,6 +94,9 @@ h1, h2, h3, h4, h5, h6 {
     to{
       transform: scale(1);
     }
+}
+.jumbotron-overlay-sub-pages {
+    margin-top: 200px;
 }
 .cta-donate-text {
     color: #fff;
@@ -109,6 +114,15 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     border-top: 2px solid rgba(103, 141, 88, 0.8);
     border-bottom: 2px solid rgba(103, 141, 88, 0.8);
+}
+.quote-mark {
+    position: absolute;
+    background-image: url("../images/quote-left.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    opacity: 0.10;
+    margin-top: -40px;
 }
 
 /* 4. main content area */
