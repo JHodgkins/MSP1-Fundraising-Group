@@ -8,8 +8,8 @@ Source Sans-Pro - Light/300 Regular/400 Semi-Bold/600 Bold/700
 /* colour scheme values 
 Light Cornflower Blue: #9cd5f4 / rgb(100, 149, 237)
 Naples Yellow: #fde06f / rgb(253, 224, 111)
-Indigo Dye: #133c55
-Honolulu Blue: #386fa4
+Indigo Dye: #133c55 / rgb(19, 60, 85)
+Honolulu Blue: #386fa4 / rgb(56, 111, 164)
 Russian Green: #678d58 / rgb(103, 141, 88)
 */
 
@@ -50,6 +50,7 @@ h1, h2, h3, h4, h5, h6 {
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
+/* jumbotron overlay animation */
 @keyframes jumbotron-zoom-image {
     from{
       transform: scale(0.8);
@@ -75,10 +76,24 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 2px solid rgba(103, 141, 88, 0.8);
 }
 
+
+/* secondary content area - / Homepage */
+.complmentary-card {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.background-dark {
+    background-color: rgb(19, 60, 85);
+}
+.card-icons {
+    font-size: 5rem;
+    margin: 1rem auto;
+}
+
 /* footer */
 .bg-footer-wrapper {}
 .bg-footer-inner-wrapper {
-    background-color: #386fa4;
+    background-color: rgb(56, 111, 164);
     color: #fff;
     min-height: 250px;
 }
