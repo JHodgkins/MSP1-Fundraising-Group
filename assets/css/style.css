@@ -30,6 +30,9 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.pad-bottom-20 {
+    padding-bottom: 20px;
+}
 
 /* Navigation */
 .bg-header-wrapper {
@@ -94,6 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 .card-icons-main {
     font-size: 7rem;
     margin: 1rem auto;
+    width: 100%;
 }
 
 
