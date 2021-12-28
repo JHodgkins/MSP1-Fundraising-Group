@@ -5,6 +5,24 @@ Source Sans-Pro - Light/300 Regular/400 Semi-Bold/600 Bold/700
 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
 
+/* Stylesheet Index
+-Color scheme value refrence
+-Base body, heading, paragraph and link values
+-Utility classes
+
+** Sections **
+
+1. Main Navigation
+2. Jumbotron/Hero section
+3. Blockquote section
+4. Main Content Area
+- 4.1 Main content area Homepage
+5. Secondary content area
+- 5.1 Secondary content area homepage
+6. footer
+7. Media queries
+*/
+
 /* colour scheme values 
 Light Cornflower Blue: #9cd5f4 / rgb(100, 149, 237)
 Naples Yellow: #fde06f / rgb(253, 224, 111)
@@ -13,7 +31,8 @@ Honolulu Blue: #386fa4 / rgb(56, 111, 164)
 Russian Green: #678d58 / rgb(103, 141, 88)
 */
 
-/* Base body, paragraph and link values */
+/* Base body, headings, paragraph and link values */
+
 body, p, a {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.125rem;
@@ -23,6 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* utility classes */
+
 .text-white {
     color: #fff;
 }
@@ -34,7 +54,8 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 20px;
 }
 
-/* Navigation */
+/* 1. Main Navigation */
+
 .bg-header-wrapper {
     border-bottom: 1px solid rgba(103, 141, 88, 0.8);
 }
@@ -45,7 +66,8 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 2px solid rgb(253, 224, 111);
 }
 
-/* Jumbotron/Hero section */
+/* 2. Jumbotron/Hero section */
+
 .bg-hero-wrapper {
     background-color: #fff;
 }
@@ -79,7 +101,8 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
-/* Blockquotes section */
+/* 3. Blockquotes section */
+
 .bg-quotes-wrapper {}
 .blockquote {
     margin-top: 20px;
@@ -88,21 +111,30 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 2px solid rgba(103, 141, 88, 0.8);
 }
 
-/* main content area / Homepage */
+/* 4. main content area */
+
 .bg-main-wrapper {}
 .bg-main-inner-wrapper {
     background-color: rgba(100, 149, 237, 0.5);
     padding-top: 20px;
 }
+
+/* 4.1 Main content area Homepage */
+
 .card-icons-main {
-    font-size: 7rem;
+    font-size: 4.5rem;
     margin: 1rem auto;
     width: 100%;
 }
 
+/* 5. Secondary content area */
 
+.bg-secondary-main-inner-wrapper {
+    background-color: rgb(253, 224, 111);
+}
 
-/* secondary content area - / Homepage */
+/* 5.1 Secondary content area Homepage */
+
 .complmentary-card {
     margin-bottom: 20px;
 }
@@ -114,7 +146,8 @@ h1, h2, h3, h4, h5, h6 {
     margin: 1rem auto;
 }
 
-/* footer */
+/* 6. Footer */
+
 .bg-footer-wrapper {}
 .bg-footer-inner-wrapper {
     background-color: rgb(56, 111, 164);
@@ -137,7 +170,8 @@ h1, h2, h3, h4, h5, h6 {
     color: rgb(253, 224, 111);
 }
 
-/* media queries */
+/* 7. media queries */
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .social-media {
