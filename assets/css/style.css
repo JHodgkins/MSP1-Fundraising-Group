@@ -21,6 +21,9 @@ body, p, a {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif; ;
 }
+.text-white {
+    color: #fff;
+}
 
 /* Navigation */
 .bg-header-wrapper {
@@ -79,7 +82,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* secondary content area - / Homepage */
 .complmentary-card {
-    color: #fff;
     margin-bottom: 20px;
 }
 .background-dark {
@@ -97,6 +99,9 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     min-height: 250px;
 }
+.social-media {
+    margin-top: 40px;
+}
 .social-media-links li a i {
     font-size: 48px;
     color: #fff;
@@ -110,7 +115,13 @@ h1, h2, h3, h4, h5, h6 {
     color: rgb(253, 224, 111);
 }
 
-
+/* media queries */
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .social-media {
+        margin-top: 0;
+    }
+}
 
 
 
