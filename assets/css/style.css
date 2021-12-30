@@ -17,6 +17,7 @@ Source Sans-Pro - Light/300 Regular/400 Semi-Bold/600 Bold/700
 3. Blockquote section
 4. Main Content Area
 - 4.1 Main content area Homepage
+- 4.2 Main content area eventa & Collections, Gallery
 5. Secondary content area
 - 5.1 Secondary content area homepage
 6. footer
@@ -45,6 +46,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .text-white {
     color: #fff;
+}
+.bg-white {
+    background-color: #fff;
 }
 .card-margin {
     margin-top: 20px;
@@ -141,6 +145,18 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
+/* 4.2 Main content area events and collections/gallery */
+
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 1;
+    column-gap: 0px;
+}
+  #gallery img {
+    width: 100%;
+}
+
 /* 5. Secondary content area */
 
 .bg-secondary-main-inner-wrapper {
@@ -188,11 +204,23 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    #gallery {
+        column-count: 2;
+      }
     .social-media {
         margin-top: 0;
     }
 }
-
-
-
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #gallery {
+      column-count: 3;
+    }
+  }
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #gallery {
+        column-count: 4;
+    }
+}
 
