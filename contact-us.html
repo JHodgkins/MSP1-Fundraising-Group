@@ -107,14 +107,25 @@
         <!-- Contact us card one -->
         <div class="card pb-3">
           <div class="row no-gutters">
-            <div class="col-md-3 order-md-12 mx-sm-auto">
-              <i class="fas fa-user-friends text-center text-lg-center py-2 card-icons-main" aria-hidden="true"></i>
+            <div class="col-md-3 order-md-12 mx-sm-auto align-self-center">
+              <i class="fas fa-question-circle text-center text-lg-center py-2 card-icons-main" aria-hidden="true"></i>
             </div>
             <div class="col-md-9 order-md-1">
               <div class="card-body">
-                <h2 class="card-title"></h2>
+                <h2 class="card-title">How to Contact us</h2>
                 <p class="card-text">
-                  
+                  Contacting us could not be simplier, use the below form to send us your query.<br>
+                  We only need you to provide a few details.
+                </p>
+                <ul>
+                    <li>Your name or a nickname, just something we can use to address you in a reply email</li>
+                    <li>An email address so we know where to send the reply t your question too.</li>
+                    <li>The general subject line of your question, this is only general, you will have a chance to be more specific in the More information section.</li>
+                    <li>Your question, we do not mind a long question but please try to keep it to one or two, you can always contact us again - This helps us provide the best answer to the specif questions you have.</li>
+                </ul>
+                <p class="card-text">
+                    We look forward to helping you whatever your enquiry may be.<br>
+                    <strong>Hertford &amp; Ware Fundraising Group</strong>
                 </p>
               </div>
             </div>
@@ -124,24 +135,56 @@
       <!-- main contact us card one container -->
 
       <div class="container bg-main-inner-wrapper pad-bottom-20">
-        <!-- About us card two -->
+        <!-- Contact us form -->
         <div class="card pb-3">
           <div class="row no-gutters">
-            <div class="col-md-3 order-md-12 mx-sm-auto">
-              <i class="fas fa-paw text-center text-lg-center py-2 card-icons-main" aria-hidden="true"></i>
+            <div class="col-md-4 order-md-12 contact-form-bg-image">
             </div>
-            <div class="col-md-9 order-md-1">
+            <div class="col-md-8 order-md-1">
               <div class="card-body">
-                <h2 class="card-title"></h2>
-                <p class="card-text">
-                  
-                </p>
+                <h2 class="card-title">Contact us form</h2>
+                <p class="required-fields-message">All fields marked with an <span class="required-field">*</span> are required fields</p>
+                
+                <form action="thankyou.html" method="post">
+                  <fieldset>
+                    <legend>Contact and Message details</legend>
+                    <div class="form-group">
+                        <label for="fullName">Full Name: <span class="required-field">*</span></label>
+                        <input type="text" class="form-control" id="fullName" name="full_name" aria-describedby="nameHelp" placeholder="Enter your name" required><span></span>
+                        <small id="nameHelp" class="form-text text-muted">We require this so we know how to address you in our reply.</small>
+                      </div>
+                    <div class="form-group">
+                      <label for="emailAddress">Email Address <span class="required-field">*</span></label>
+                      <input type="email" class="form-control" id="emailAddress" name="email_address" aria-describedby="emailHelp" required><span></span>
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else, it is purely for contacting you back.</small>
+                    </div>
+                    <div class="form-group">
+                        <label class="my-1 mr-2" for="messageSubject">Message subject</label>
+                        <select class="custom-select my-1 mr-sm-2" id="messageSubject" name="message_subject">
+                          <option value="" selected>Please select...</option>
+                          <option value="volunteering">Fundraising with the group</option>
+                          <option value="donating">Donating</option>
+                          <option value="colaborating">Colaborating with the group</option>
+                          <option value="general_question">General question</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="questionMessageBody">Your question <span class="required-field">*</span></label>
+                        <textarea class="form-control" id="questionMessageBody" name="question_message_body" rows="5" required></textarea><span></span>
+                    </div>
+
+                    <button type="submit" id="submitButton" class="btn btn-outline-success">Send us your message</button>
+                    <button type="reset" id="resetButton" class="btn btn-outline-danger">Clear the form</button>
+                  </fieldset>
+                </form>
+
+
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- main contact us card two container -->
+      <!-- main contact us form container -->
     </section>
     <!-- end main content area -->
 
