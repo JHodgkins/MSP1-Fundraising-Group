@@ -16,3 +16,5 @@ The website will provide to new visitors a well-rounded positive feeling site de
 
 ## Design brief
 Plan, design and build a website for a local community fundraising group to increase their presence and raise awareness of their fundraising cause within the local community area, which will help to increase recruitment volunteer numbers and direct donations to the fundraising group.
+## Research
+Please view the [research](docs/research.md) document for details.
