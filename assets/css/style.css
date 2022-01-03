@@ -72,12 +72,19 @@ h1, h2, h3, h4, h5, h6 {
 .bg-header-wrapper {
     border-bottom: 1px solid rgba(103, 141, 88, 0.8);
 }
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.7);
+}
 .nav-link.active {
+    color: rgba(0,0,0,.9);
+    font-weight: 600;
     border-bottom: 2px solid rgb(100, 149, 237, 0.9);
 }
-.nav-link:hover {
+.nav-link:hover, .nav-link:focus {
+    color: rgba(0,0,0,.7);
     border-bottom: 2px solid rgb(253, 224, 111);
 }
+
 
 /* 2. Jumbotron/Hero section */
 
@@ -237,6 +244,10 @@ input:valid, textarea:valid {
 .card-icons {
     font-size: 5rem;
     margin: 1rem auto;
+}
+.btn-outline-secondary {
+    color: #212529;
+    border-color: #6c757d;
 }
 
 /* 5.2 secondary content area, Donate */
