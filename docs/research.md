@@ -41,3 +41,8 @@ The group has a Facebook page and asks the person responsible for maintaining th
 Q. **Are there any areas of the current Facebook page which do and do not work well for the group?**  
 User. _‘The ability to share our posts to other pages is great but we have found not all local businesses like Facebook and have asked us for our website so they can see what we are about._  
 _It is great that we can receive comments on our posts and receive feedback or a direct message, but we could share a website just as easily and the direct messages come to me not to the group coordinator or secretary to deal with.’_
+## Summary
+The research provided an insight into the benefits and downsides to the current platform used, the current platform did indeed offer facilities which the proposed website cannot currently offer due to technologies used.  
+However in connection with each other, the platform and website can offer a positive benefit to all users and work cohesively together leaning on each other’s strengths and weaknesses to better meet the fundraising group’s needs, its users base and business goals to expand and increase revenue.  
+## Conclusion
+This project fills this gap by providing an accessible and clear to understand platform for potential residents within their area seeking to volunteer with a local group and promote a sense of community whilst also notifying followers of upcoming events.
