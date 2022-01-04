@@ -21,7 +21,7 @@ Developer: James Hodgkins
     - [HomePage](#homepage)
     - [About us page](#about-us-page)
     - [Fundraise page](#fundraise-page)
-    - [Events & Collections page](#events--colections-page)
+    - [Events & Collections page](#events--collections-page)
     - [Contact us page](#contact-us-page)
     - [Donate page](#donate-page)
 
