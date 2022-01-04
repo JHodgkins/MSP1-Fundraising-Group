@@ -24,6 +24,7 @@ Developer: James Hodgkins
     - [Main content area](#main-content-area)  
     - [Secondary main content area](#secondary-main-content-area)  
     - [Footer section](#footer-section)  
+
     6.2 [Wireframe designs](#wireframe-designs)
     - [HomePage](#homepage)
     - [About us page](#about-us-page)
