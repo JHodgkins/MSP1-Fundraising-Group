@@ -16,7 +16,7 @@ Developer: James Hodgkins
     5.1 [First time visitor](#first-time-visitor)  
     5.2 [Returning user](#returning-user)  
     5.3 [Site owner](#site-owner)  
-    
+
 ## Overview
 The Hertford and Ware Fundraising Group fundraising site is a website catering for a local community group of volunteers located within east Hertfordshire, the areas they fundraise are Hertford, Ware and Welwyn Garden City.
 The website has been developed with its main purpose to provide a platform for current group members to stay up to date with upcoming events and collections, a platform that they can easily share their fundraising activities with friends, family, and those within the community to encourage new recruits to the fundraising group.  
@@ -79,3 +79,31 @@ The site has also kept in mind visually impaired users as the website content re
 -  As the site owner, I want visitors to understand what the groups fundraising goals are, to find out more about the main charity and how it helps visually impaired people.
 -  As the site owner, I want the site visitors to be able to contact the group regarding a service or ask a general question
 -  As the site owner, I want site visitors to be able to donate to the group easily.
+
+## Design
+### Wireframe designs
+Wireframe designs show Mobile, Tablet and Desktop views.
+The site was developed using a mobile first approach.
+#### HomePage
+<details><summary>Mobile</summary>
+<img src="docs/wireframes/mobile/iPhone-HomePage.png" alt="Wireframe screenshot of mobile home page layout"></details>
+
+#### About us page
+<details><summary>Mobile</summary>
+<img src="docs/wireframes/mobile/iPhone-who_we_are_page.png" alt="Wireframe screenshot of mobile about us page layout"></details>
+
+#### Fundraise page
+<details><summary>Mobile</summary>
+<img src="docs/wireframes/mobile/iPhone-Fundraise_page.png" alt="Wireframe screenshot of mobile fundraise page layout"></details>
+
+#### Events & Collections page
+<details><summary>Mobile</summary>
+<img src="docs/wireframes/mobile/iPhone-events_and_collections_page.png" alt="Wireframe screenshot of mobile events and collections page layout"></details>
+
+#### Contact us page
+<details><summary>Mobile</summary>
+<img src="docs/wireframes/mobile/iPhone-Contact_us_page.png" alt="Wireframe screenshot of mobile contact us page layout"></details>
+
+#### Donate page
+<details><summary>Mobile</summary>
+<img src="docs/wireframes/mobile/iPhone-Donate_page.png" alt="Wireframe screenshot of mobile donate page layout"></details>
