@@ -18,7 +18,13 @@ Developer: James Hodgkins
     5.2 [Returning user](#returning-user)  
     5.3 [Site owner](#site-owner)
 6. [Design](#design)  
-    6.1 [Wireframe designs](#wireframe-designs)
+    6.1 [Structure of pages](#structure-of-pages)  
+    - [Header section](#header-section)  
+    - [Blockquote area](#blockquote-area)  
+    - [Main content area](#main-content-area)  
+    - [Secondary main content area](#secondary-main-content-area)  
+    - [Footer section](#footer-section)  
+    6.2 [Wireframe designs](#wireframe-designs)
     - [HomePage](#homepage)
     - [About us page](#about-us-page)
     - [Fundraise page](#fundraise-page)
@@ -91,6 +97,29 @@ The site has also kept in mind visually impaired users as the website content re
 -  As the site owner, I want site visitors to be able to donate to the group easily.
 
 ## Design
+The design of the website was kept clean, clear to understand with header, hero section and footer kept consistent across pages for a good user experience (UX)  
+The website is bright and cheerful to reflect the feel of the fundraising group.  
+As a person with a visual impairment, the website was designed with screen magnification and screen readers in mind.  
+### Structure of pages
+The website uses a responsive mobile first layout approach which reflows to a maximum width of 1140px which becomes centre aligned on the page to maximise the users direct eye contact.  
+#### Header section
+The website has a left aligned logo from Mobile through to Desktop.
+Located to the right is the main navigation, which is also responsive, this remains right aligned until tablet size where it will collapse to a right aligned Hamburger menu (toggle button).  
+On devices tablet and below the user can expand/collapse the menu using the menu toggle button, the menu never obstructs site content instead pushes it down to reveal the full available menu items.  
+#### Blockquote area
+The blockquote area is used to display factual and motivational messages over various pages, the messages are used on the donate page for example to inform what a donation means to a charity, another example on the homepage is a factual quote from the NHS which totals the number of people living in the UK with a sight issue.  
+#### Main content area
+The main area changes it content based on the page selected from the navigation but remains consistent in its content presentation by providing a full width card or half page width card.  
+This approach was decided upon so a user would know quickly how many areas were available to explore.  
+The main content area has also been set with a consistent background surround to show clearly where the main page content starts and ends.  
+#### Secondary main content area
+This section always appears below the main content and is presented like the main content area with a surround colour to mark the area.  
+This section holds complementary content based on the page selected and is used to add additional relevant areas of interest, the area shows two half page width cards on Desktop with the left card being highlighted as the most important card in this section.  
+#### Footer section
+The footer section was designed to be clean and useful; the footer displays with two half page sections both providing options for the user to interact with.  
+The left side contains a simple but effective message asking if they have a question, the user can select the link to be directed to the contact form no matter the page they are on.  
+The right side displays all available social media channels using social media icons, these links will enable a user to select a social media channel but remain on the current site as all external links open in a new window.  
+
 ### Wireframe designs
 Wireframe designs show Mobile, Tablet and Desktop views.  
 The site was developed using a mobile first approach.
