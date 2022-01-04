@@ -31,7 +31,10 @@ Developer: James Hodgkins
     - [Fundraise page](#fundraise-page)
     - [Events & Collections page](#events--collections-page)
     - [Contact us page](#contact-us-page)
-    - [Donate page](#donate-page)
+    - [Donate page](#donate-page)  
+    
+    6.3 [Colour palette](#colour-palette)
+
 
 ## Overview
 The Hertford and Ware Fundraising Group fundraising site is a website catering for a local community group of volunteers located within east Hertfordshire, the areas they fundraise are Hertford, Ware and Welwyn Garden City.
@@ -170,4 +173,18 @@ The site was developed using a mobile first approach.
 <details><summary>Tablet</summary>
 <img src="docs/wireframes/tablet/iPad-Donate_page.png" alt="Wireframe screenshot of tablet donate page layout"></details>
 <details><summary>Desktop</summary>
-<img src="docs/wireframes/desktop/Desktop-Donate_page.png" alt="Wireframe screenshot of desktop donate page layout"></details>
+<img src="docs/wireframes/desktop/Desktop-Donate_page.png" alt="Wireframe screenshot of desktop donate page layout"></details>  
+
+### Colour palette
+![colour palette](docs/colours/Colour-scheme-MSP1.png)  
+-  Light Cornflower Blue: #9cd5f4 / rgb(100, 149, 237) was used as this represents the blue colour polo shirts worn by volunteers when fundraising.
+-  Naples Yellow: #fde06f / rgb(253, 224, 111) was used to represent a yellow Labrador colour which is the common colour associated with Guide dogs who are seen in public  
+
+The three remaining colours were taken from the hero image used across the website, they represent an outdoor scheme with a feeling of nature which match with the groups fundraising goals to help visually impaired people gain their freedom and independence.  
+-  Indigo Dye: #133c55 / rgb(19, 60, 85)
+-  Honolulu Blue: #386fa4 / rgb(56, 111, 164)
+-  Russian Green: #678d58 / rgb(103, 141, 88)  
+
+Other standard colours used were white and shades of black.  
+I used a tool called Contrast Grid [view live colour palette](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%239cd5f4%0D%0A%23fde06f%20%0D%0A%23133c55%0D%0A%23386fa4%0D%0A%23678d58%0D%0A%23ffffff%0D%0A%23000000&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18) to determine the foreground and background combinations to ensure a minimum contrast ratio of 4.5:1 was maintained.  
+![Accessible colour palette](docs/colours/accessible-colour-schemes.png)  
