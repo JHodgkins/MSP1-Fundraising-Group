@@ -369,7 +369,7 @@ Tutorial source used for refrence code: https://avexdesigns.com/blog/responsive-
         background-image: url('../images/James+Willow.jpg'); background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        max-width: 590pxpx;
+        max-width: 590px;
         height: 700px;
         margin: 10px 0 0 -10px;
     }
