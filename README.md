@@ -15,7 +15,15 @@ Developer: James Hodgkins
 5. [User experience (UX)](#user-experience-ux)  
     5.1 [First time visitor](#first-time-visitor)  
     5.2 [Returning user](#returning-user)  
-    5.3 [Site owner](#site-owner)  
+    5.3 [Site owner](#site-owner)
+6. [Design](#design)  
+    6.1 [Wireframe designs](#wireframe-designs)
+    - [HomePage](#homepage)
+    - [About us page](#about-us-page)
+    - [Fundraise page](#fundraise-page)
+    - [Events & Collections page](#events--colections-page)
+    - [Contact us page](#contact-us-page)
+    - [Donate page](#donate-page)
 
 ## Overview
 The Hertford and Ware Fundraising Group fundraising site is a website catering for a local community group of volunteers located within east Hertfordshire, the areas they fundraise are Hertford, Ware and Welwyn Garden City.
