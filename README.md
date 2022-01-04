@@ -35,7 +35,7 @@ Developer: James Hodgkins
 
     6.3 [Colour palette](#colour-palette)  
     6.4 [Typography](#typography)  
-
+    6.5 [Icons and Imagery](#icons-and-imagery)
 
 ## Overview
 The Hertford and Ware Fundraising Group fundraising site is a website catering for a local community group of volunteers located within east Hertfordshire, the areas they fundraise are Hertford, Ware and Welwyn Garden City.
@@ -194,4 +194,20 @@ I used a tool called Contrast Grid [view live colour palette](https://contrast-g
 The fonts used across the site were provided by Google fonts and were used in certain areas as to maintain readability.  
 There were two font families used, Source Sans Pro and Poppins, both fonts have a default fall-back of Sans-Serif which is available on all operating systems.  
 Heading elements of the site used: Source Sans Pro with Poppins being used across the remainder of site elements, to improve readability for magnification users, the base font size was set to 18px from the browser default 16px.  
+
+### Icons and Imagery
+The icons used across the website were provided by Font Awesome free icon set.  
+Each icon was selected to represent the heading title as to aid users with certain neurological disabilities to recognise the meaning of the section contents.  
+Icons were also chosen as they are scalable and can be scaled to high magnification levels and remain clear and sharp.  
+
+![Icon set](docs/icons/icon-set.jpg)  
+-  Paw – Represents a dog paw print
+-  Microphone-alt – Represents a microphone a speaker would use
+-  Users – Represents a group of users
+-  User-friends – Represents users who are friends, this also represents a group of volunteers.  
+-  Coins – Represents collection or donation
+-  Paperclip – Represents a relation to office or admin role
+-  Hands-helping – Represents someone helping someone
+-  Question-circle – Represents a sign to help answer a question
+-  Social media icons for Facebook, twitter and Instagram were also used.  
 
