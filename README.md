@@ -12,7 +12,11 @@ Developer: James Hodgkins
     4.2 [User goals](#user-goals)  
     4.3 [Site owner goals](#site-owner-goals)  
     4.4 [Target audience](#trget-audience)  
-
+5. [User experience (UX)](#user-experience-ux)  
+    5.1 [First time visitor](#first-time-visitor)  
+    5.2 [Returning user](#returning-user)  
+    5.3 [Site owner](#site-owner)  
+    
 ## Overview
 The Hertford and Ware Fundraising Group fundraising site is a website catering for a local community group of volunteers located within east Hertfordshire, the areas they fundraise are Hertford, Ware and Welwyn Garden City.
 The website has been developed with its main purpose to provide a platform for current group members to stay up to date with upcoming events and collections, a platform that they can easily share their fundraising activities with friends, family, and those within the community to encourage new recruits to the fundraising group.  
@@ -50,3 +54,28 @@ The increase of income will help open up new event opportunities or business col
 -  People looking to find out more about local Guide Dog events or collections
 -  Groups, schools, or businesses looking to organise an information event or talk
 -  Groups, schools, or businesses looking to fundraise for a local charity
+
+## User experience (UX)
+During project planning, it was decided to set an aim that all User journeys should aim to be completed in 3 clicks or less to provide an overall good user experience and provide a positive feeling when navigating the site and reaching the users intended destintion.  
+The site has also kept in mind visually impaired users as the website content relates to this area of disability, because of this all elements of the website are keyboard and screen reader accessible.  
+### First time visitor
+-  As a first-time site visitor to the website, I want to understand what the site’s purpose is so that I can decide if it interests me
+-  As a first-time site visitor, I want to be able to easily navigate the site so I can find the areas I am interested in.
+-  As a first-time site visitor, I want to immediately understand what areas the group covers so that I can determine if I am local to the group.
+-  As a first-time site visitor, I want to know more about the fundraising group
+-  As a first-time site visitor, I want to find out how to volunteer
+-  As a first-time site visitor, I want to get a feel of what to expect if I want to volunteer for the group
+-  As a first-time site visitor, I want to be able to donate to the group
+-  As a first-time site visitor, I want to be able to ask a question
+### Returning user
+-  As a returning visitor, I want to see the latest upcoming event
+-  As a returning visitor, I want to know what roles are currently available within the group
+-  As a returning visitor, I want to be able to ask a question regarding a service or collaboration
+-  As a returning visitor, I want to view photos of past events or collections
+-  As a returning visitor, I want to visit the fundraising groups social media pages
+-  As a returning visitor, I want to know how to book a talk from a speaker/GDO/Puppy walker for my group, school
+### Site owner
+-  As the site owner, I want visitors to find information about upcoming events or collections
+-  As the site owner, I want visitors to understand what the groups fundraising goals are, to find out more about the main charity and how it helps visually impaired people.
+-  As the site owner, I want the site visitors to be able to contact the group regarding a service or ask a general question
+-  As the site owner, I want site visitors to be able to donate to the group easily.
