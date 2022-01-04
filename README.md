@@ -36,6 +36,9 @@ Developer: James Hodgkins
     6.3 [Colour palette](#colour-palette)  
     6.4 [Typography](#typography)  
     6.5 [Icons and Imagery](#icons-and-imagery)
+7. [Website features](#website-features)  
+    7.1 [Existing features](#existing-features)  
+    7.2 [Future features to be implemented](future-features-to-be-implemented)  
 
 ## Overview
 The Hertford and Ware Fundraising Group fundraising site is a website catering for a local community group of volunteers located within east Hertfordshire, the areas they fundraise are Hertford, Ware and Welwyn Garden City.
@@ -210,4 +213,23 @@ Icons were also chosen as they are scalable and can be scaled to high magnificat
 -  Hands-helping – Represents someone helping someone
 -  Question-circle – Represents a sign to help answer a question
 -  Social media icons for Facebook, twitter and Instagram were also used.  
+
+## Website features
+This section looks at features which are implemented and those that when further technologies are learnt and introduced will add to the current state and functionality of the website.
+### Existing features
+-  Responsive website which will reflow up to 500% zoom using browser zoom.  
+-  Responsive navigation menu bar
+-  HTML form validation with visual feedback given through on screen icons.  
+-  Animated circle progress bar indicating visually donation percentage goal.  
+-  Responsive embedded video player
+-  Responsive masonry image gallery which spans from 1 column through to 4 columns on desktop resolutions.  
+-  100% accessible using a screen reader
+
+### Future features to be implemented
+-  Improve the HTML form by adding server-side scripting to handle message request and send a user email to confirm receipt of message request.
+-  Improve form error messages by using JavaScript to validate form and provide custom feedback messages.
+-  Implement an API call to Just Giving to return real time donation amounts to users on the website.
+-  Implement a carousel showing services of interest within the hero section of the website.
+-  Implement a database with a mail server to collect and distribute monthly newsletters to signed up users.
+-  Implement a map generation widget to identify the location of events and embed a google map for users to plan their route to the event.  
 
