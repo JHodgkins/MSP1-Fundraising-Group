@@ -32,8 +32,9 @@ Developer: James Hodgkins
     - [Events & Collections page](#events--collections-page)
     - [Contact us page](#contact-us-page)
     - [Donate page](#donate-page)  
-    
-    6.3 [Colour palette](#colour-palette)
+
+    6.3 [Colour palette](#colour-palette)  
+    6.4 [Typography](#typography)  
 
 
 ## Overview
@@ -188,3 +189,9 @@ The three remaining colours were taken from the hero image used across the websi
 Other standard colours used were white and shades of black.  
 I used a tool called Contrast Grid [view live colour palette](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%239cd5f4%0D%0A%23fde06f%20%0D%0A%23133c55%0D%0A%23386fa4%0D%0A%23678d58%0D%0A%23ffffff%0D%0A%23000000&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18) to determine the foreground and background combinations to ensure a minimum contrast ratio of 4.5:1 was maintained.  
 ![Accessible colour palette](docs/colours/accessible-colour-schemes.png)  
+
+### Typography
+The fonts used across the site were provided by Google fonts and were used in certain areas as to maintain readability.  
+There were two font families used, Source Sans Pro and Poppins, both fonts have a default fall-back of Sans-Serif which is available on all operating systems.  
+Heading elements of the site used: Source Sans Pro with Poppins being used across the remainder of site elements, to improve readability for magnification users, the base font size was set to 18px from the browser default 16px.  
+
