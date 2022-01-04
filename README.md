@@ -82,40 +82,52 @@ The site has also kept in mind visually impaired users as the website content re
 
 ## Design
 ### Wireframe designs
-Wireframe designs show Mobile, Tablet and Desktop views.
+Wireframe designs show Mobile, Tablet and Desktop views.  
 The site was developed using a mobile first approach.
 #### HomePage
 <details><summary>Mobile</summary>
 <img src="docs/wireframes/mobile/iPhone-HomePage.png" alt="Wireframe screenshot of mobile home page layout"></details>
 <details><summary>Tablet</summary>
 <img src="docs/wireframes/tablet/iPad-HomePage.png" alt="Wireframe screenshot of tablet home page layout"></details>
+<details><summary>Desktop</summary>
+<img src="docs/wireframes/desktop/Desktop-HomePage.png" alt="Wireframe screenshot of desktop home page layout"></details>
 
 #### About us page
 <details><summary>Mobile</summary>
 <img src="docs/wireframes/mobile/iPhone-who_we_are_page.png" alt="Wireframe screenshot of mobile about us page layout"></details>
 <details><summary>Tablet</summary>
 <img src="docs/wireframes/tablet/iPad-who_we_are_page.png" alt="Wireframe screenshot of tablet about us page layout"></details>
+<details><summary>Desktop</summary>
+<img src="docs/wireframes/desktop/Desktop-who_we_are_page.png" alt="Wireframe screenshot of desktop about us page layout"></details>
 
 #### Fundraise page
 <details><summary>Mobile</summary>
 <img src="docs/wireframes/mobile/iPhone-Fundraise_page.png" alt="Wireframe screenshot of mobile fundraise page layout"></details>
 <details><summary>Tablet</summary>
 <img src="docs/wireframes/tablet/iPad-Fundraise_page.png" alt="Wireframe screenshot of tablet fundraise page layout"></details>
+<details><summary>Desktop</summary>
+<img src="docs/wireframes/desktop/Desktop-Fundraise_page.png" alt="Wireframe screenshot of desktop fundraise page layout"></details>
 
 #### Events & Collections page
 <details><summary>Mobile</summary>
 <img src="docs/wireframes/mobile/iPhone-events_and_collections_page.png" alt="Wireframe screenshot of mobile events and collections page layout"></details>
 <details><summary>Tablet</summary>
 <img src="docs/wireframes/tablet/iPad-events_and_collections_page.png" alt="Wireframe screenshot of tablet events and collections page layout"></details>
+<details><summary>Desktop</summary>
+<img src="docs/wireframes/desktop/Desktop-events_and_collections_page.png" alt="Wireframe screenshot of desktop events and collections page layout"></details>
 
 #### Contact us page
 <details><summary>Mobile</summary>
 <img src="docs/wireframes/mobile/iPhone-Contact_us_page.png" alt="Wireframe screenshot of mobile contact us page layout"></details>
 <details><summary>Tablet</summary>
 <img src="docs/wireframes/tablet/iPad-Contact_us_page.png" alt="Wireframe screenshot of tablet contact us page layout"></details>
+<details><summary>Desktop</summary>
+<img src="docs/wireframes/desktop/Desktop-Contact_us_page.png" alt="Wireframe screenshot of desktop contact us page layout"></details>
 
 #### Donate page
 <details><summary>Mobile</summary>
 <img src="docs/wireframes/mobile/iPhone-Donate_page.png" alt="Wireframe screenshot of mobile donate page layout"></details>
 <details><summary>Tablet</summary>
 <img src="docs/wireframes/tablet/iPad-Donate_page.png" alt="Wireframe screenshot of tablet donate page layout"></details>
+<details><summary>Desktop</summary>
+<img src="docs/wireframes/desktop/Desktop-Donate_page.png" alt="Wireframe screenshot of desktop donate page layout"></details>
