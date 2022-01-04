@@ -6,7 +6,7 @@ Developer: James Hodgkins
 ## Table of contents
 1. [Overview](#overview)
 2. [Design brief](#design-brief)
-3. [Research](docs/research.md)
+3. [Research](#research)
 4. [Goals](#goals)  
     4.1 [Project goals](#project-goals)  
     4.2 [User goals](#user-goals)  
