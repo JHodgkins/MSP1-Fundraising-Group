@@ -4,7 +4,7 @@
 Hertford & Ware Fundraising Group is a local volunteer run group located within Hertfordshire, the group fundraise to support the charatiable work of Guide Dogs for the Blind Association UK.
 
 Developer: James Hodgkins  
----
+
 ## Table of contents
 1. [Overview](#overview)
 2. [Design brief](#design-brief)
@@ -47,7 +47,11 @@ Developer: James Hodgkins
     9.2 [Frameworks](#frameworks)  
     9.3 [Libraries](#libraries)  
     9.4 [Programs and online resources](#programs-and-online-resources)  
-
+10. [Deployments](#deployments)
+    10.1 [Deploying to GitHub Pages](#deploying-to-github-pages)
+    10.2 [Forking the GitHub Repository](#forking-the-github-repository)
+    10.3 [Cloning to GitPod](#cloning-to-gitpod)
+    
 
 ## Overview
 The Hertford and Ware Fundraising Group fundraising site is a website catering for a local community group of volunteers located within east Hertfordshire, the areas they fundraise are Hertford, Ware and Welwyn Garden City.
@@ -245,7 +249,7 @@ This section looks at features which are implemented and those that when further
 ## Testing
 Due to the size of the testing document, it has been seperated into a seperate TESTING document.
 
-## Technology used
+## Technologies used
 A list of all technologies and software and online resources used to create the website.  
 ### Languages
 -  [HTML](https://en.wikipedia.org/wiki/HTML5)  
@@ -265,4 +269,28 @@ A list of all technologies and software and online resources used to create the 
 -  [Colour scheme](https://coolors.co/9cd5f4-fde06f-133c55-386fa4-678d58), used to create a colour palette
 -  [Lighthouse](https://developers.google.com/web/tools/lighthouse), used to test performance, accessibility, best practices, and SEO within the Chrome browser.
 -  [Am I Responsive](http://ami.responsivedesign.is/), used for generating the main README image.
+## Deployments
+Below are the steps to Deploy, Fork and Clone.
+### Deploying to GitHub Pages
+This project was deployed to GitHub Pages using these steps.
+1.	Log in to GitHub and then locate the GitHub Repository
+2.	On the top menu of the Repository, code is selected in the menu at the right is the "Settings" Button, select this link on the menu.
+3.	Settings will open, scroll down the Settings page until you find the "Pages" Section.
+4.	Under "Source", select the dropdown which displays "None" and select "Main".
+5.	The page will automatically refresh.
+6.	Scroll back down through the page to locate the now published site link in the "GitHub Pages" section, this will take a few minutes before the link shows your page.
+### Forking the GitHub Repository
+Forking a GitHub Repository will make a copy of the original repository on your GitHub account to view, edit or make changes without worrying about affecting the original repository.
+1.	Log in to GitHub and locate the GitHub Repository you wish to fork
+2.	At the top of the Repository, to the right above the "Settings" link on the menu, locate the "Fork" Button and select.
+3.	You should now have a copy of the original repository within your GitHub account.
+### Cloning to GitPod
+1.	Go to [gitpod.io](https://gitpod.io)
+2.	Create an account or sign in
+3.	Open a new window and navigate to the extension store of your browser
+-   [Chromium browsers](https://chrome.google.com/webstore/detail/gitpod-online-ide/dodmmooeoklaejobgleioelladacbeki)
+-   [Firefox](https://addons.mozilla.org/firefox/addon/gitpod/)
+4.	Accept permissions for the extensions and then return to the repository you wish to clone.
+5.	There should be a green Gitpod button now located to the right, selecting this will open GitHub new repository screen.
+6.	Create a new repository and Gitpod will launch your new repository into the user interface.
 
