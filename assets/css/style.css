@@ -6,29 +6,27 @@ Source Sans-Pro - Light/300 Regular/400 Semi-Bold/600 Bold/700
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
 
 /* Stylesheet Index
--Color scheme value refrence
--Base body, heading, paragraph and link values
--Utility classes
 
-** Sections **
-
-1. Main Navigation
-2. Jumbotron/Hero section
-3. Blockquote section
-4. Main Content Area
-- 4.1 Homepage
-- 4.2 eventa & Collections, Gallery
-- 4.3 Contact form
-5. Secondary content area
-- 5.1 homepage
-- 5.2 donate
+1. colour scheme values
+2. Base body, headings, paragraph and link values
+3. utility classes
+4. Main Navigation
+5. Jumbotron/Hero section
+6. Blockquote section
+7. Main Content Area
+- 7.1 Homepage
+- 7.2 events and collections/gallery
+- 7.3 Contact form
+- 7.4 donate
+-- Pie chart
 -- Responsive video
--- Progress percentage bar
-6. footer
-7. Media queries
+8. Secondary content area
+- 8.1 standard card styles across pages
+9. footer
+10. Media queries
 */
 
-/* colour scheme values 
+/* 1. colour scheme values 
 Light Cornflower Blue: #9cd5f4 / rgb(100, 149, 237)
 Naples Yellow: #fde06f / rgb(253, 224, 111)
 Indigo Dye: #133c55 / rgb(19, 60, 85)
@@ -36,7 +34,7 @@ Honolulu Blue: #386fa4 / rgb(56, 111, 164)
 Russian Green: #678d58 / rgb(103, 141, 88)
 */
 
-/* Base body, headings, paragraph and link values */
+/* 2. Base body, headings, paragraph and link values */
 
 body, p, a {
     font-family: 'Source Sans Pro', sans-serif;
@@ -46,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif; ;
 }
 
-/* utility classes */
+/* 3. utility classes */
 
 .text-white {
     color: #fff;
@@ -67,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
     border-color: #fde06f;
 }
 
-/* 1. Main Navigation */
+/* 4. Main Navigation */
 
 .bg-header-wrapper {
     border-bottom: 1px solid rgba(103, 141, 88, 0.8);
@@ -86,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* 2. Jumbotron/Hero section */
+/* 5. Jumbotron/Hero section */
 
 .bg-hero-wrapper {
     background-color: #fff;
@@ -126,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
-/* 3. Blockquotes section */
+/* 6. Blockquotes section */
 
 .bg-quotes-wrapper {}
 .blockquote {
@@ -145,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: -40px;
 }
 
-/* 4. main content area */
+/* 7. main content area */
 
 .bg-main-wrapper {}
 .bg-main-inner-wrapper {
@@ -153,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 20px;
 }
 
-/* 4.1 Main content area Homepage */
+/* 7.1 Main content area Homepage */
 
 .card-icons-main {
     font-size: 4.5rem;
@@ -161,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
-/* 4.2 Main content area events and collections/gallery */
+/* 7.2 Main content area events and collections/gallery */
 
 #gallery {
     clear: both;
@@ -173,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
-/* 4.3 Contact form */
+/* 7.3 Contact form */
 
 .required-fields-message {
     font-weight: 700;
@@ -227,91 +225,21 @@ input:valid, textarea:valid {
     margin-top: 40px;
 }
 
-/* 5. Secondary content area */
+/* 7.4 main content area, Donate */
 
-.bg-secondary-main-inner-wrapper {
-    background-color: rgb(253, 224, 111);
-}
+/* pie chart graphic
+code tutorial source: https://www.geeksforgeeks.org/how-to-create-a-pie-chart-using-html-css/ */
 
-/* 5.1 Secondary content area Homepage */
-
-.complmentary-card {
-    margin-bottom: 20px;
-}
-.background-dark {
-    background-color: rgb(19, 60, 85);
-}
-.card-icons {
-    font-size: 5rem;
-    margin: 1rem auto;
-}
-.btn-outline-secondary {
-    color: #212529;
-    border-color: #6c757d;
-}
-
-/* 5.2 secondary content area, Donate */
-
-/* progress percentage bar, source of tutorial: https://www.foolishdeveloper.com/2021/09/circular-progress-bar-using-html-css.html
-Author: shantanu jana
-Twitter: https://twitter.com/foolishdevweb  */
-.circle-wrap {
-    margin: 50px auto;
+.piechart {
+    margin: 20px auto;
+    display: block;
+    position: relative;
     width: 150px;
     height: 150px;
-    background: #fff;
     border-radius: 50%;
-    border: 1px solid #fde06f;
-  }
-  
-.circle-wrap .circle .mask,
-.circle-wrap .circle .fill {
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    border-radius: 50%;
-}
-  
-.circle-wrap .circle .mask {
-    clip: rect(0px, 150px, 150px, 75px);
-}
-  
-.circle-wrap .inside-circle {
-    width: 122px;
-    height: 122px;
-    border-radius: 50%;
-    background: #fff;
-    line-height: 120px;
-    text-align: center;
-    margin-top: 14px;
-    margin-left: 14px;
-    color: #133c55;
-    position: absolute;
-    z-index: 100;
-    font-weight: 700;
-    font-size: 3em;
-}
-  
-/* color animation */ 
-/* 3rd progress bar */
-.mask .fill {
-    clip: rect(0px, 75px, 150px, 0px);
-    background-color: #386fa4;
-}
-  
-.mask.full,
-.circle .fill {
-    animation: fill ease-in-out 2.5s;
-    transform: rotate(90deg);
-}
-  
-  @keyframes fill{
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(90deg);
-    }
+    background-image: conic-gradient(
+        rgb(19, 60, 85) 0 180deg, 
+        #fde06f 180deg 360deg);
 }
 
 /* Video embed | Responsive video
@@ -331,7 +259,30 @@ Tutorial source used for refrence code: https://avexdesigns.com/blog/responsive-
     height: 100%;
 }
 
-/* 6. Footer */
+/* 8. Secondary content area */
+
+.bg-secondary-main-inner-wrapper {
+    background-color: rgb(253, 224, 111);
+}
+
+/* 8.1 Secondary content area - standard card styles across pages */
+
+.complmentary-card {
+    margin-bottom: 20px;
+}
+.background-dark {
+    background-color: rgb(19, 60, 85);
+}
+.card-icons {
+    font-size: 5rem;
+    margin: 1rem auto;
+}
+.btn-outline-secondary {
+    color: #212529;
+    border-color: #6c757d;
+}
+
+/* 9. Footer */
 
 .bg-footer-wrapper {}
 .bg-footer-inner-wrapper {
@@ -355,7 +306,7 @@ Tutorial source used for refrence code: https://avexdesigns.com/blog/responsive-
     color: rgb(253, 224, 111);
 }
 
-/* 7. media queries */
+/* 10. media queries */
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -390,7 +341,3 @@ Tutorial source used for refrence code: https://avexdesigns.com/blog/responsive-
         column-count: 4;
     }
 }
-
-
-
-  
