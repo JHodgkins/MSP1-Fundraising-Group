@@ -161,6 +161,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* 7.2 Main content area events and collections/gallery */
 
+.heading-title-box {
+    padding: 20px;
+    margin: 0 auto 0 auto;
+    background-color: #ffffff;
+}
+
 #gallery {
     clear: both;
     line-height: 0;
