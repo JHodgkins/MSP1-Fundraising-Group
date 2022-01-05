@@ -1,8 +1,10 @@
 # Hertford & Ware Fundraising Group
+![Site image](docs/images/cover-image.png)  
 
 Hertford & Ware Fundraising Group is a local volunteer run group located within Hertfordshire, the group fundraise to support the charatiable work of Guide Dogs for the Blind Association UK.
 
-Developer: James Hodgkins
+Developer: James Hodgkins  
+---
 ## Table of contents
 1. [Overview](#overview)
 2. [Design brief](#design-brief)
