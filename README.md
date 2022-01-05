@@ -47,11 +47,11 @@ Developer: James Hodgkins
     9.2 [Frameworks](#frameworks)  
     9.3 [Libraries](#libraries)  
     9.4 [Programs and online resources](#programs-and-online-resources)  
-10. [Deployments](#deployments)
-    10.1 [Deploying to GitHub Pages](#deploying-to-github-pages)
-    10.2 [Forking the GitHub Repository](#forking-the-github-repository)
-    10.3 [Cloning to GitPod](#cloning-to-gitpod)
-    
+10. [Deployments](#deployments)  
+    10.1 [Deploying to GitHub Pages](#deploying-to-github-pages)  
+    10.2 [Forking the GitHub Repository](#forking-the-github-repository)  
+    10.3 [Cloning to GitPod](#cloning-to-gitpod)  
+
 
 ## Overview
 The Hertford and Ware Fundraising Group fundraising site is a website catering for a local community group of volunteers located within east Hertfordshire, the areas they fundraise are Hertford, Ware and Welwyn Garden City.
