@@ -39,6 +39,13 @@ Developer: James Hodgkins
 7. [Website features](#website-features)  
     7.1 [Existing features](#existing-features)  
     7.2 [Future features to be implemented](future-features-to-be-implemented)  
+8. [Testing](#testing)  
+9. [Technologies used](#technologies-used)  
+    9.1 [Languages](#languages)  
+    9.2 [Frameworks](#frameworks)  
+    9.3 [Libraries](#libraries)  
+    9.4 [Programs and online resources](#programs-and-online-resources)  
+
 
 ## Overview
 The Hertford and Ware Fundraising Group fundraising site is a website catering for a local community group of volunteers located within east Hertfordshire, the areas they fundraise are Hertford, Ware and Welwyn Garden City.
@@ -232,4 +239,28 @@ This section looks at features which are implemented and those that when further
 -  Implement a carousel showing services of interest within the hero section of the website.
 -  Implement a database with a mail server to collect and distribute monthly newsletters to signed up users.
 -  Implement a map generation widget to identify the location of events and embed a google map for users to plan their route to the event.  
+
+## Testing
+Due to the size of the testing document, it has been seperated into a seperate TESTING document.
+
+## Technology used
+A list of all technologies and software and online resources used to create the website.  
+### Languages
+-  [HTML](https://en.wikipedia.org/wiki/HTML5)  
+-  [CSS](https://en.wikipedia.org/wiki/CSS)  
+### Frameworks
+-  [Bootstrap version 4.6](https://getbootstrap.com/)  
+### Libraries
+-  [Font Awesome](https://fontawesome.com/), Icons used throughout the site
+-  [Google fonts](https://fonts.google.com/), Source sans pro and Poppins fonts were used across the site.  
+-  [jQuery](https://jquery.com/), bundled with Bootstrap CDN for its elements function
+### Programs and online resources
+-  [favicon.io](https://favicon.io) used to create a site favicon.
+-  [GitHub](https://github.io), was used to store committed files
+-  [Git](https://git-scm.com/) and [GitPod](https://gitpod.io/), used in conjunction through Gitpod to commit and push files to GitHub
+-  [Photoshop 2021](https://adobe.com), used for cropping, resizing and editing of photos and screenshots
+-  [Figma](https://www.figma.com/), used to create the wireframe designs of the website
+-  [Colour scheme](https://coolors.co/9cd5f4-fde06f-133c55-386fa4-678d58), used to create a colour palette
+-  [Lighthouse](https://developers.google.com/web/tools/lighthouse), used to test performance, accessibility, best practices, and SEO within the Chrome browser.
+-  [Am I Responsive](http://ami.responsivedesign.is/), used for generating the main README image.
 
