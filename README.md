@@ -1,8 +1,8 @@
 # Hertford & Ware Fundraising Group
 ![Site image](docs/images/cover-image.png)  
 
-Hertford & Ware Fundraising Group is a local volunteer run group located within Hertfordshire, the group fundraise to support the charatiable work of Guide Dogs for the Blind Association UK.
-
+Hertford & Ware Fundraising Group is a local volunteer run group located within Hertfordshire, the group fundraise to support the charatiable work of Guide Dogs for the Blind Association UK.  
+[Live site](https://jhodgkins.github.io/MSP1-Fundraising-Group/)  
 Developer: James Hodgkins  
 
 ## Table of contents
@@ -51,7 +51,11 @@ Developer: James Hodgkins
     10.1 [Deploying to GitHub Pages](#deploying-to-github-pages)  
     10.2 [Forking the GitHub Repository](#forking-the-github-repository)  
     10.3 [Cloning to GitPod](#cloning-to-gitpod)  
-
+11. [Credits and resources used](#credits-and-resources-used)  
+    11.1 [Code snippets](#code-snippets)  
+    11.2 [Omages and Icons](#images-and-icons)  
+    11.3 [Content](#content)  
+12. [Acknowledgments](#acknowledgments)
 
 ## Overview
 The Hertford and Ware Fundraising Group fundraising site is a website catering for a local community group of volunteers located within east Hertfordshire, the areas they fundraise are Hertford, Ware and Welwyn Garden City.
@@ -247,7 +251,7 @@ This section looks at features which are implemented and those that when further
 -  Implement a map generation widget to identify the location of events and embed a google map for users to plan their route to the event.  
 
 ## Testing
-Due to the size of the testing document, it has been seperated into a seperate TESTING document.
+Due to the size of the testing document, it has been seperated into a seperate [TESTING](docs/testing/TESTING.md) document.
 
 ## Technologies used
 A list of all technologies and software and online resources used to create the website.  
@@ -293,4 +297,19 @@ Forking a GitHub Repository will make a copy of the original repository on your 
 4.	Accept permissions for the extensions and then return to the repository you wish to clone.
 5.	There should be a green Gitpod button now located to the right, selecting this will open GitHub new repository screen.
 6.	Create a new repository and Gitpod will launch your new repository into the user interface.
+## Credits and resources used
+### Code snippets
+-  Responsive video CSS code was used from this tutorial site [Responsive Video tutorial](https://avexdesigns.com/blog/responsive-youtube-embed*/)  
+-  Pie chart code was used from this tutorial and was modified to meet the websites needs, [Pie chart tutorial](https://www.geeksforgeeks.org/how-to-create-a-pie-chart-using-html-css/)  
+### Images and Icons
+-  Main hero image used across the site and the contact us photograph of a guide dog owner and his guide dog were taken by the developer J Hodgkins, who is also the owner of the guide dog.  
+-  Icons used were Font Awesome Free fonts   
+-  In support of Guide Dogs logo next to fundraising group logo is provided by Guide Dogs through their VIP area for volunteer resources.  
+### Content
+-  Blockquote ‘In the UK, there are almost 2 million people living with sight loss. Of these, around 360,000 are registered as blind or partially sighted.’ Was used from [NHS UK](https://www.nhs.uk/conditions/vision-loss/#:~:text=In%20the%20UK%2C%20there%20are,as%20blind%20or%20partially%20sighted) 
 
+## Acknowledgments
+Thank you to my Tutor Philip Morris, and my mentor Chris Quinn, they both have never questioned my ability even with a disability.  
+I want to thank my wife Jeanmarie and my children for allowing me the spare time to take on this new challenge and for believing in me.  
+
+Everyone at Code Institute who has helped and my class at Harlow College.
