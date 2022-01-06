@@ -11,10 +11,10 @@ This document details how Hertford and Ware Fundraisng group website was tested 
 3. [Browser Reflow and Responsive test](#browser-reflow-and-responsive-test)  
 4. [Link testing](#link-testing)  
 5. [Tab order test](#tab-order-test)  
-6. [Landmarks test](#landmark-test)  
-7. [User stories testing from the UX section](#user-stories-testsing-from-the-ux-section)  
-    7.1 [First time user](#first-time-user)  
-    7.2 [Eeturning visitor](#returning-visitor)  
+6. [Landmarks test](#landmarks-test)  
+7. [User stories testing from the UX section](#user-stories-testing-from-the-ux-section)  
+    7.1 [First time visitor](#first-time-visitor)  
+    7.2 [Returning visitor](#returning-visitor)  
     7.3 [Site owner](#site-owner)  
 
 
@@ -67,7 +67,7 @@ Screen reader users use landmarks to highlight sections on the page, these are i
 
 ## User stories testing from the UX section
 
-### First time User
+### First time Visitor
 
 -  __As a first-time site visitor to the website, I want to understand what the site’s purpose is so that I can decide if it interests me__  
 When a new visitor arrives at the site, they will immediately see the logo which reads ‘Hertford & Ware Group’, with a supporter logo placed in proximity which reads ‘In support of Guide Dogs’.  
