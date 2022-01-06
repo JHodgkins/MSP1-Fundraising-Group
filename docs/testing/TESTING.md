@@ -137,8 +137,15 @@ A user can also use the donate link in the main navigation to find a speaker CTA
 ![User stories - Returning visitor q6](testing-images/testimage-speaker.png)  
 
 ### Site Owner
--  As the site owner, I want visitors to find information about upcoming events or collections
--  As the site owner, I want visitors to understand what the groups fundraising goals are, to find out more about the main charity and how it helps visually impaired people.
--  As the site owner, I want the site visitors to be able to contact the group regarding a service or ask a general question  
--  As the site owner, I want site visitors to be able to donate to the group easily.
+-  __As the site owner, I want visitors to find information about upcoming events or collections__  
+Located on every page apart from the donate page, there is a card a user can select to be taken directly to the speaker information page on the guide dogs’ main website.  
+
+-  __As the site owner, I want visitors to understand what the groups fundraising goals are, to find out more about the main charity and how it helps visually impaired people.__  
+Located on the main navigation is an about us link, selecting this will tell them about the group and the history of guide dogs and how their charity began.  
+
+-  __As the site owner, I want the site visitors to be able to contact the group regarding a service or ask a general question__  
+Located on the contact us page is a form which a user can fill out, on the form is a dropdown field to direct the message to the correct person.  
+
+-  __As the site owner, I want site visitors to be able to donate to the group easily.__  
+Located on the homepage within the Hero image is a direct Donate through Just Giving link which will allow a user to donate securely through Just Giving secure platform.  
 
