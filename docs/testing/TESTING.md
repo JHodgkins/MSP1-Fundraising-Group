@@ -73,54 +73,72 @@ Screen reader users use landmarks to highlight sections on the page, these are i
 When a new visitor arrives at the site, they will immediately see the logo which reads ‘Hertford & Ware Group’, with a supporter logo placed in proximity which reads ‘In support of Guide Dogs’.  
 Just below this our large Hero banner image which grabs the users attention and reads ‘Hertford & Ware Fundraising Group’ which is followed by introductory text.  
 A new visitor would be immediately aware of the websites purpose using these elements.  
-![User stories q1](testing-images/testimage-hero.png)  
+![User stories - First time visitor q1](testing-images/testimage-hero.png)  
 
 -  __As a first-time site visitor, I want to be able to easily navigate the site so I can find the areas I am interested in.__  
 Located on every page in a standardised place, top right-hand side of the screen are six links, these are clearly visible with a highlighted border below the Homepage link to show its active state.  
 Move mouse to the top right and select a link or tab through the navigation links.  
-![User stories q2](testing-images/testimage-navigation.png)  
+![User stories - First time visitor q2](testing-images/testimage-navigation.png)  
 
 -  __As a first-time site visitor, I want to immediately understand what areas the group covers so that I can determine if I am local to the group.__  
 The Hero banner plays an important role by showing the towns that the group cover, there is also a short introduction titled Who we are just below the Hero image which details information relating to the areas in which the group cover.  
 When page loads, eyes should be drawn to the large heading level 1 group name.  
-![User stories q3](testing-images/testimage-hero.png)  
+![User stories - First time visitor q3](testing-images/testimage-hero.png)  
 
 -  __As a first-time site visitor, I want to know more about the fundraising group__  
 Located just below the Who are we paragraph is a link to a more detailed explanation, alternatively the visitor can use the main navigation and select About us  
 When page loads, scroll a small amount and select Find out more about us.  
 When page loads move mouse or press tab key two times to land on the About us navigation link.  
-![User stories q4](testing-images/testimage-who-we-are.png)  
+![User stories - First time visitor q4](testing-images/testimage-who-we-are.png)  
 
 -  __As a first-time site visitor, I want to find out how to volunteer__  
 The main navigation holds a Fundraise link which leads to information about fundraising.  
 Homepage, there is a large full width card with a Fundraise with us heading and link to take the user to the fundraise page.  
 Events & collections and Donate pages have a card above the footer with a Fundraise for us heading and link to the fundraise page.  
-![User stories q5](testing-images/testimage-fundraise-with-us.png)  
+![User stories - First time visitor q5](testing-images/testimage-fundraise-with-us.png)  
 
 -  __As a first-time site visitor, I want to get a feel of what to expect if I want to volunteer for the group__  
 Using the navigation to select events and collections the user will be taken to a page where it details what happens at events and collections including a photo gallery to view.  
-![User stories q6](testing-images/testimage-fundraise-page.png)  
+![User stories - First time visitor q6](testing-images/testimage-fundraise-page.png)  
 
 -  __As a first-time site visitor, I want to be able to donate to the group__  
 Select the Donate link in the main navigation which will show all ways to donate to the cause.  
-![User stories q7](testing-images/testimage-donate-page.png)  
+![User stories - First time visitor q7](testing-images/testimage-donate-page.png)  
  
 -  __As a first-time site visitor, I want to be able to ask a question__  
 Located in the main navigation is a link to the contact us page, there is also a section in the footer which is present on all pages which says Got a question.  
-![User stories q8](testing-images/testimage-got-a-question.png)  
+![User stories - First time visitor q8](testing-images/testimage-got-a-question.png)  
 
 ### Returning Visitor
--  As a returning visitor, I want to see the latest upcoming event  
-    Located on the homepage a returning visitor will be able to see the next upcoming event or collection.,  
 
--  As a returning visitor, I want to know what roles are currently available within the group
--  As a returning visitor, I want to be able to ask a question regarding a service or collaboration
--  As a returning visitor, I want to view photos of past events or collections
--  As a returning visitor, I want to visit the fundraising groups social media pages
--  As a returning visitor, I want to know how to book a talk from a speaker/GDO/Puppy walker for my group, school
+-  __As a returning visitor, I want to see the latest upcoming event__  
+Located on the homepage a returning visitor will be able to see the next upcoming event or collection.  
+![User stories - Returning visitor q1](testing-images/testimage-upcoming-event.png)  
+
+-  __As a returning visitor, I want to know what roles are currently available within the group.__  
+Located on the main navigation is a link to the fundraise page which gives a user all the necessary links to sign up and volunteer.  
+![User stories - Returning visitor q2](testing-images/testimage-fundraise-page.png)  
+
+-  __As a returning visitor, I want to be able to ask a question regarding a service or collaboration__  
+Located on the main navigation is a contact us link, when the user selects this, they will see a form that can be filled out to get in touch.  
+![User stories - Returning visitor q3](testing-images/testimage-contact-form.png)  
+
+-  __As a returning visitor, I want to view photos of past events or collections__  
+Selecting the events and collections main navigation link will take the use to the events page where they can view a photo gallery  
+![User stories - Returning visitor q4](testing-images/testimage-gallery.png)  
+
+-  __As a returning visitor, I want to visit the fundraising groups social media pages__
+Located on the footer on all pages are the groups social media icon links, selecting one of these will open up the platform link in a new tab.  
+![User stories - Returning visitor q5](testing-images/testimage-social-media.png)  
+
+-  __As a returning visitor, I want to know how to book a talk from a speaker/GDO/Puppy walker for my group or school__  
+Located above the footer on most pages is a card that reads Request a speaker.
+A user can also use the donate link in the main navigation to find a speaker CTA card.  
+![User stories - Returning visitor q6](testing-images/testimage-speaker.png)  
+
 ### Site Owner
 -  As the site owner, I want visitors to find information about upcoming events or collections
 -  As the site owner, I want visitors to understand what the groups fundraising goals are, to find out more about the main charity and how it helps visually impaired people.
--  As the site owner, I want the site visitors to be able to contact the group regarding a service or ask a general question
+-  As the site owner, I want the site visitors to be able to contact the group regarding a service or ask a general question  
 -  As the site owner, I want site visitors to be able to donate to the group easily.
 
