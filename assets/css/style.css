@@ -58,6 +58,9 @@ a:hover {
 .bg-white {
     background-color: #fff;
 }
+.full-height {
+    height: 100%;
+}
 .card-margin {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -79,6 +82,10 @@ a:hover {
 }
 .bg-header-wrapper {
     border-bottom: 1px solid rgba(103, 141, 88, 0.8);
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.9);
+    border-color: rgba(0,0,0,.7);
 }
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0,.8);
