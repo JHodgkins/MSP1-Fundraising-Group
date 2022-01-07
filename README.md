@@ -237,7 +237,6 @@ This section looks at features which are implemented and those that when further
 -  Responsive website which will reflow up to 500% zoom using browser zoom.  
 -  Responsive navigation menu bar
 -  HTML form validation with visual feedback given through on screen icons.  
--  Animated circle progress bar indicating visually donation percentage goal.  
 -  Responsive embedded video player
 -  Responsive masonry image gallery which spans from 1 column through to 4 columns on desktop resolutions.  
 -  100% accessible using a screen reader
@@ -251,7 +250,7 @@ This section looks at features which are implemented and those that when further
 -  Implement a map generation widget to identify the location of events and embed a google map for users to plan their route to the event.  
 
 ## Testing
-Due to the size of the testing document, it has been seperated into a seperate [TESTING](docs/testing/TESTING.md) document.
+The testing document has been seperated into a seperate [TESTING](docs/testing/TESTING.md) document.
 
 ## Technologies used
 A list of all technologies and software and online resources used to create the website.  
@@ -273,8 +272,10 @@ A list of all technologies and software and online resources used to create the 
 -  [Colour scheme](https://coolors.co/9cd5f4-fde06f-133c55-386fa4-678d58), used to create a colour palette
 -  [Lighthouse](https://developers.google.com/web/tools/lighthouse), used to test performance, accessibility, best practices, and SEO within the Chrome browser.
 -  [Am I Responsive](http://ami.responsivedesign.is/), used for generating the main README image.
+
 ## Deployments
 Below are the steps to Deploy, Fork and Clone.
+
 ### Deploying to GitHub Pages
 This project was deployed to GitHub Pages using these steps.
 1.	Log in to GitHub and then locate the GitHub Repository
@@ -283,11 +284,13 @@ This project was deployed to GitHub Pages using these steps.
 4.	Under "Source", select the dropdown which displays "None" and select "Main".
 5.	The page will automatically refresh.
 6.	Scroll back down through the page to locate the now published site link in the "GitHub Pages" section, this will take a few minutes before the link shows your page.
+
 ### Forking the GitHub Repository
 Forking a GitHub Repository will make a copy of the original repository on your GitHub account to view, edit or make changes without worrying about affecting the original repository.
 1.	Log in to GitHub and locate the GitHub Repository you wish to fork
 2.	At the top of the Repository, to the right above the "Settings" link on the menu, locate the "Fork" Button and select.
 3.	You should now have a copy of the original repository within your GitHub account.
+
 ### Cloning to GitPod
 1.	Go to [gitpod.io](https://gitpod.io)
 2.	Create an account or sign in
@@ -297,14 +300,17 @@ Forking a GitHub Repository will make a copy of the original repository on your 
 4.	Accept permissions for the extensions and then return to the repository you wish to clone.
 5.	There should be a green Gitpod button now located to the right, selecting this will open GitHub new repository screen.
 6.	Create a new repository and Gitpod will launch your new repository into the user interface.
+
 ## Credits and resources used
 ### Code snippets
 -  Responsive video CSS code was used from this tutorial site [Responsive Video tutorial](https://avexdesigns.com/blog/responsive-youtube-embed*/)  
 -  Pie chart code was used from this tutorial and was modified to meet the websites needs, [Pie chart tutorial](https://www.geeksforgeeks.org/how-to-create-a-pie-chart-using-html-css/)  
+
 ### Images and Icons
 -  Main hero image used across the site and the contact us photograph of a guide dog owner and his guide dog were taken by the developer J Hodgkins, who is also the owner of the guide dog.  
 -  Icons used were Font Awesome Free fonts   
 -  In support of Guide Dogs logo next to fundraising group logo is provided by Guide Dogs through their VIP area for volunteer resources.  
+
 ### Content
 -  Blockquote ‘In the UK, there are almost 2 million people living with sight loss. Of these, around 360,000 are registered as blind or partially sighted.’ Was used from [NHS UK](https://www.nhs.uk/conditions/vision-loss/#:~:text=In%20the%20UK%2C%20there%20are,as%20blind%20or%20partially%20sighted) 
 
@@ -312,4 +318,4 @@ Forking a GitHub Repository will make a copy of the original repository on your 
 Thank you to my Tutor Philip Morris, and my mentor Chris Quinn, they both have never questioned my ability even with a disability.  
 I want to thank my wife Jeanmarie and my children for allowing me the spare time to take on this new challenge and for believing in me.  
 
-Everyone at Code Institute who has helped and my class at Harlow College.
+Everyone at Code Institute and Harlow College who has helped and my online class at Harlow College.
