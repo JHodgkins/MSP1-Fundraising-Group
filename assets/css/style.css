@@ -10,7 +10,7 @@ Source Sans-Pro - Light/300 Regular/400 Semi-Bold/600 Bold/700
 1. colour scheme values
 2. Base body, headings, paragraph and link values
 3. utility classes
-4. Main Navigation
+4. Logo and Main Navigation
 5. Jumbotron/Hero section
 6. Blockquote section
 7. Main Content Area
@@ -43,6 +43,12 @@ body, p, a {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif; ;
 }
+a {
+    color: #212529;
+}
+a:hover {
+    color: #0056b3;
+}
 
 /* 3. utility classes */
 
@@ -65,21 +71,25 @@ h1, h2, h3, h4, h5, h6 {
     border-color: #fde06f;
 }
 
-/* 4. Main Navigation */
+/* 4. Logo and Main Navigation */
 
+.site-logo {
+    width: 170px;
+    height: 85px;
+}
 .bg-header-wrapper {
     border-bottom: 1px solid rgba(103, 141, 88, 0.8);
 }
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(0,0,0,.7);
+    color: rgba(0,0,0,.8);
 }
 .nav-link.active {
-    color: rgba(0,0,0,.9);
+    color: rgba(0,0,0,1);
     font-weight: 600;
     border-bottom: 2px solid rgb(100, 149, 237, 0.9);
 }
 .nav-link:hover, .nav-link:focus {
-    color: rgba(0,0,0,.7);
+    color: rgba(0,0,0,.8);
     border-bottom: 2px solid rgb(253, 224, 111);
 }
 
@@ -90,14 +100,14 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fff;
 }
 .jumbotron-box {    
-    background: url("../images/Group_image_hero_image.jpg") no-repeat;
-    background-color: #fff;
+    background: url("../images/Group_image_hero_image-compressed.jpg") no-repeat;
+    background-color: #000000;
     background-position: center center;
     background-size: cover;
     min-height: 450px;
 } 
 .jumbotron-overlay {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.85);
     color: #fff;
     animation-name: jumbotron-zoom-image;
     animation-duration: 2s;
