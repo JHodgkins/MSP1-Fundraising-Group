@@ -53,6 +53,10 @@ a:hover {
 
 /* 3. utility classes */
 
+.btn {
+    text-decoration: none;
+}
+
 .text-white {
     color: #fff;
 }
