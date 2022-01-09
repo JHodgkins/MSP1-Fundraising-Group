@@ -45,6 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 a {
     color: #212529;
+    text-decoration:underline;
 }
 a:hover {
     color: #0056b3;
@@ -115,6 +116,7 @@ a:hover {
 }
 .cta-donate-text {
     color: #fff;
+    text-decoration:underline;
 }
 .cta-donate-text:hover, .cta-donate-text:focus {
     color: rgb(253, 224, 111);
