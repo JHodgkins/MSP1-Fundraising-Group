@@ -2,7 +2,9 @@
 ![Site image](docs/images/cover-image.png)  
 
 Hertford & Ware Fundraising Group is a local volunteer run group located within Hertfordshire, the group fundraise to support the charatiable work of Guide Dogs for the Blind Association UK.  
+
 [Live site](https://jhodgkins.github.io/MSP1-Fundraising-Group/)  
+
 Developer: James Hodgkins  
 
 ## Table of contents
@@ -68,7 +70,7 @@ The website will provide to new visitors a well-rounded positive feeling site de
 Plan, design and build a website for a local community fundraising group to increase their presence and raise awareness of their fundraising cause within the local community area, which will help to increase recruitment volunteer numbers and direct donations to the fundraising group.
 
 ## Research
-Please view the [research](docs/research.md) document for details.
+Please view the [research](docs/research/research.md) document for details.
 ## Goals
 ### Project goals
 - The project will provide a platform for residents living within Hertford, Ware or Welwyn Garden City in Hertfordshire to stay up to date with the group’s activities.
