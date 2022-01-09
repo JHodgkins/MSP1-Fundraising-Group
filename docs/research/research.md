@@ -45,4 +45,6 @@ _It is great that we can receive comments on our posts and receive feedback or a
 The research provided an insight into the benefits and downsides to the current platform used, the current platform did indeed offer facilities which the proposed website cannot currently offer due to technologies used.  
 However in connection with each other, the platform and website can offer a positive benefit to all users and work cohesively together leaning on each other’s strengths and weaknesses to better meet the fundraising group’s needs, its users base and business goals to expand and increase revenue.  
 ## Conclusion
-This project fills this gap by providing an accessible and clear to understand platform for potential residents within their area seeking to volunteer with a local group and promote a sense of community whilst also notifying followers of upcoming events.
+This project fills this gap by providing an accessible and clear to understand platform for potential residents within their area seeking to volunteer with a local group and promote a sense of community whilst also notifying followers of upcoming events.  
+
+[Back to Repository](https://github.com/JHodgkins/MSP1-Fundraising-Group) 
