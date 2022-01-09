@@ -94,6 +94,7 @@ a:hover {
 }
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0,.8);
+    text-decoration: none;
 }
 .nav-link.active {
     color: rgba(0,0,0,1);
