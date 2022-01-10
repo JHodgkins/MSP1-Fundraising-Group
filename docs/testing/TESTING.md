@@ -19,10 +19,11 @@ This document details how Hertford and Ware Fundraisng group website was tested 
     5.3 [Tab order test](#tab-order-test)  
     5.4 [Landmarks test](#landmarks-test)  
     5.5 [Screen reader testing](#screen-reader-testing)  
-6. [Automated tests](#automated-tests)  
+6. [Automated testing](#automated-testing)  
     6.1 [Lighthouse](#lighthouse)  
     6.2 [Simulated device testing](#simulated-device-testing)  
-7. [Issue tracking](#issue-tracking)  
+7. [Logs](#logs)  
+    7.1 [Issue tracking](#issue-tracking)  
 
 ## User stories testing from the UX section
 
@@ -30,7 +31,7 @@ This document details how Hertford and Ware Fundraisng group website was tested 
 
 -  __As a first-time site visitor to the website, I want to understand what the site’s purpose is so that I can decide if it interests me__  
 When a new visitor arrives at the site, they will immediately see the logo which reads ‘Hertford & Ware Group’, with a supporter logo placed in proximity which reads ‘In support of Guide Dogs’.  
-Just below this our large Hero banner image which grabs the users attention and reads ‘Hertford & Ware Fundraising Group’ which is followed by introductory text.  
+Just below this our large Hero banner image which grabs the user's attention and reads ‘Hertford & Ware Fundraising Group’ which is followed by introductory text.  
 A new visitor would be immediately aware of the websites purpose using these elements.  
 ![User stories - First time visitor q1](testing-images/testimage-hero.png)  
 
@@ -83,7 +84,7 @@ Located on the main navigation is a contact us link, when the user selects this,
 ![User stories - Returning visitor q3](testing-images/testimage-contact-form.png)  
 
 -  __As a returning visitor, I want to view photos of past events or collections__  
-Selecting the events and collections main navigation link will take the use to the events page where they can view a photo gallery  
+Selecting the events and collections main navigation link will take the user to the events page where they can view a photo gallery  
 ![User stories - Returning visitor q4](testing-images/testimage-gallery.png)  
 
 -  __As a returning visitor, I want to visit the fundraising groups social media pages__
@@ -109,7 +110,7 @@ Located on the contact us page is a form which a user can fill out, on the form 
 Located on the homepage within the Hero image is a direct Donate through Just Giving link which will allow a user to donate securely through Just Giving secure platform.  
 
 ## Testing Overview  
-Automated testing
+__Automated testing__
 All automated tests were carried out in incognito mode to eliminate extension conflicts or false positives or errors due to the extension requests.  
 
 __Manual testing__  
@@ -126,6 +127,9 @@ __Screen Reader software__
 NVDA and JAWS were used in some tests, this was software which I own and was run in real time and not simulated through an extension or virtual environment.  
 
 ## Test results overview  
+Below is an overview of tests undertaken, results of tests are stored in an Excel document for functionality and accessible reasons.  
+Please see attached logs-and-issues.xlsx or view on the GitHub repository.  
+
 
 | Test             | Homepage | About us | Fundraise | Events & Collections | Contact us | Donate |
 |------------------|----------|----------|-----------|----------------------|------------|--------|
@@ -197,10 +201,12 @@ Donate through Just Giving
 <span class="sr-only">(opens Just Giving official site in a new window)</span>
 </a>
 ```  
+All pages were tested, and no issues were found.  
+
 ### Tab order test  
 Accessibility insights was used to test tab order on pages.  
 The tab order was tested to ensure all focusable elements could receive focus for keyboard only users of the website.  
-All pages were tested, and no issues were found.  
+All pages were tested, and no issues were found. Example below:  
 ![Tab/Focus Stop capture](testing-images/tabstop-screencapture.png)  
 
 ### Landmarks test  
@@ -208,42 +214,56 @@ Screen reader users use landmarks to highlight sections on the page, which can b
 These are implemented using HTML5 semantic markup and where appropriate ARIA can be used.  
 ![Landmark capture](testing-images/landmark-regions-screencapture.png)  
 
-### Screen Readr testing  
+### Screen Reader testing  
 All pages behaved as expected and no keyboard traps were detected.  
 Devices used: Windows 10 using NVDA 2021 and JAWS 2021, Mac using VoiceOver for Mac and iPhone X using VoiceOver.  
 
-## Automated tests  
+## Automated testing  
 
 ### Lighthouse  
 Google Chrome DevTools was used to run and test the Performance, Accessibility, Best practice, and SEO of each page within the website.  
 Progressive web app option was not run as this application does not include a service worker or manifest file.  
 
--  Homepage  
+-  Homepage - Desktop  
+![Lighthouse test - Homepage desktop](testing-images/lighthouse-homepage-desktop.png)  
+- Homepage - Mobile  
+![Lighthouse test - Homepage mobile](testing-images/lighthouse-homepage-mobile.png)  
+-  About us - Desktop  
+![Lighthouse test - About us desktop](testing-images/lighthouse-about-us-desktop.png)  
+-  About us - Mobile  
+![Lighthouse test - About us mobile](testing-images/lighthouse-about-us-mobile.png)  
+-  Fundraise - Desktop  
+![Lighthouse test - Fundraise desktop](testing-images/lighthouse-fundraise-desktop.png)  
+-  Fundraise - Mobile  
+![Lighthouse test - Fundraise mobile](testing-images/lighthouse-fundraise-mobile.png)  
+-  Events & Collections - Desktop  
+![Lighthouse test - Events & Collections desktop](testing-images/lighthouse-events-and-collections-desktop.png)  
+-  Events & Collections - Mobile  
+![Lighthouse test - Events & Collections mobile](testing-images/lighthouse-events-and-collections-mobile.png)  
+-  Contact us - Desktop  
+![Lighthouse test - Contact us desktop](testing-images/lighthouse-contact-us-desktop.png)  
+-  Contact us - Mobile  
+![Lighthouse test - Contact us desktop](testing-images/lighthouse-contact-us-mobile.png)  
+-  Donate - Desktop  
+![Lighthouse test - Donate desktop](testing-images/lighthouse-donate-desktop.png)  
+-  Donate - Mobile  
+![Lighthouse test - Donate mobile](testing-images/lighthouse-donate-mobile.png)  
 
--  About us  
+During testing, consistent issues across the Performance category were seen, these are outside the current learning modules and were not logged as issues as it does not affect functionality and to implement a fix would involve JavaScript or hosting on another type of server other than GitHub Pages.  
 
--  Fundraise  
-
--  Events & Collections  
-
--  Contact us  
-
--  Donate  
+Performance -  
+-  Reduce unused JavaScript
+-  Eliminate render-blocking resources
+-  Use HTTP/2
+-  Does not use passive listeners to improve scrolling performance
+-  Serve static assets with an efficient cache policy  
 
 ### Simulated device testing  
 This test was carried out using Chromes built in device simulator.  
-All simulated screen sizes rendered the website correctly apart from iPhone 5s, which because of the logo size and being a block element pushed the Hamburger menu button down from the top right corner.  
-This was resolved by reducing the logo size using media queries to restore the standard mobile appearance.  
-A programme called Browserling was also used to test and simulate an operating system back to Win 7 and running IE10. Simulated screens rendered the website correctly.  
-[Example of browserling, Win7 IE10](https://www.browserling.com/browse/win7/ie10/https:/jhodgkins.github.io/MSP1-Fundraising-Group/index.html)  
-[Example of browserling, win7 firefox 90](https://www.browserling.com/browse/win7/firefox90/https:/jhodgkins.github.io/MSP1-Fundraising-Group/index.html)  
+All simulated screen sizes rendered the website correctly.    
 
-## Issue tracking  
-
-| ID  | Test               | Page     | Issue                | Status  | Action taken          |Comment                          |
-|-----|--------------------|----------|----------------------|---------|-----------------------|---------------------------------|
-| #1  | DevTools, iPhone<br>5 simulator | All pages | Mobile menu<br>button drops down | not Fixed | Added media query to Css    | Reduced logo size by small amount so<br>both items would stay inline. | 
-|     |                    |          |                      |         |                       |                                 |
-
+## Logs  
+### Issue tracking  
+Issues were stored in an [excel sheet](logs-and-issues.xlsx) for functionality.  
 
 [Back to Repository](https://github.com/JHodgkins/MSP1-Fundraising-Group)  

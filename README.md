@@ -62,9 +62,9 @@ Developer: James Hodgkins
 ## Overview
 The Hertford and Ware Fundraising Group fundraising site is a website catering for a local community group of volunteers located within east Hertfordshire, the areas they fundraise are Hertford, Ware and Welwyn Garden City.
 The website has been developed with its main purpose to provide a platform for current group members to stay up to date with upcoming events and collections, a platform that they can easily share their fundraising activities with friends, family, and those within the community to encourage new recruits to the fundraising group.  
-The business purpose of the platform is to demonstrate an established community fundraising group to entice and instil confidence to other groups, schools or businesses to collaborate and encourage donations from donors to support the fundraising groups cause.  
+The business purpose of the platform is to demonstrate an established community fundraising group to entice and instil confidence to other groups, schools, or businesses to collaborate and encourage donations from donors to support the fundraising groups cause.  
 The sites expected target audience will be to those that would like to fulfil volunteering time through work, to persons who have more available spare time and are looking to meet or join a group of people from within the local community.  
-The website will provide to new visitors a well-rounded positive feeling site demonstrating local community spirit which will inspire and promote a positive feeling whilst providing excitement for new opportunities for those visiting to become involved in volunteering as well as make a monitory contribution if they wish bringing a warm feeling that they have played their part to made a difference to someone living with a visual impairment.
+The website will provide to new visitors a well-rounded positive feeling site demonstrating local community spirit which will inspire and promote a positive feeling whilst providing excitement for new opportunities for those visiting to become involved in volunteering as well as make a monitory contribution if they wish bringing a warm feeling that they have played their part to make a difference to someone living with a visual impairment.
 
 ## Design brief
 Plan, design and build a website for a local community fundraising group to increase their presence and raise awareness of their fundraising cause within the local community area, which will help to increase recruitment volunteer numbers and direct donations to the fundraising group.
@@ -89,7 +89,7 @@ The fundraising group would also like to achieve additional goals which are:
 The group wish to increase their events and collections throughout the year, the addition of more members will allow the group to have enough volunteers available throughout the year to meet the volunteer volume needed at the additional events or collections.  
 -  Increase annual income:  
 The fundraising group would like to increase their yearly total raised to help with the groups continuation and better support the local and national community of visually impaired users.  
-The increase of income will help open up new event opportunities or business collaborations due to being able to plan, attend larger events.  
+The increase of income will help open new event opportunities or business collaborations due to being able to plan, attend larger events.  
 ### Target audience
 -  People from the local area looking to volunteer and fundraise
 -  People looking to donate to a local cause
@@ -136,7 +136,7 @@ On devices tablet and below the user can expand/collapse the menu using the menu
 #### Blockquote area
 The blockquote area is used to display factual and motivational messages over various pages, the messages are used on the donate page for example to inform what a donation means to a charity, another example on the homepage is a factual quote from the NHS which totals the number of people living in the UK with a sight issue.  
 #### Main content area
-The main area changes it content based on the page selected from the navigation but remains consistent in its content presentation by providing a full width card or half page width card.  
+The main area changes its content based on the page selected from the navigation but remains consistent in its content presentation by providing a full width card or half page width card.  
 This approach was decided upon so a user would know quickly how many areas were available to explore.  
 The main content area has also been set with a consistent background surround to show clearly where the main page content starts and ends.  
 #### Secondary main content area
@@ -268,17 +268,21 @@ A list of all technologies and software and online resources used to create the 
 ### Programs and online resources
 -  [favicon.io](https://favicon.io) used to create a site favicon.
 -  [GitHub](https://github.io), was used to store committed files
--  [Git](https://git-scm.com/) and [GitPod](https://gitpod.io/), used in conjunction through Gitpod to commit and push files to GitHub
+-  [Git](https://git-scm.com/) and [Gitpod](https://gitpod.io/), used in conjunction through Gitpod to commit and push files to GitHub
 -  [Photoshop 2021](https://adobe.com), used for cropping, resizing and editing of photos and screenshots
+-  [WebPShop Photoshop plugin](https://github.com/webmproject/WebPShop#installation), For saving images in WebP format - [Adobe - WebP image formats guide](https://helpx.adobe.com/photoshop/kb/support-webp-image-format.html)  
 -  [Figma](https://www.figma.com/), used to create the wireframe designs of the website
 -  [Colour scheme](https://coolors.co/9cd5f4-fde06f-133c55-386fa4-678d58), used to create a colour palette
 -  [Lighthouse](https://developers.google.com/web/tools/lighthouse), used to test performance, accessibility, best practices, and SEO within the Chrome browser.
--  [Am I Responsive](http://ami.responsivedesign.is/), used for generating the main README image.
+-  [Am I Responsive](http://ami.responsivedesign.is/), used for generating the main README image.  
+-  [Markdown guide](https://www.markdownguide.org/), for helping to write the markdown file  
+-  [Squoosh](https://squoosh.app/), used to compress images  
+-  [CSS Minifier](https://www.toptal.com/developers/cssminifier/), used to minify CSS  
 
-## Deployments
+## Deployments  
 Below are the steps to Deploy, Fork and Clone.
 
-### Deploying to GitHub Pages
+### Deploying to GitHub Pages  
 This project was deployed to GitHub Pages using these steps.
 1.	Log in to GitHub and then locate the GitHub Repository
 2.	On the top menu of the Repository, code is selected in the menu at the right is the "Settings" Button, select this link on the menu.
@@ -287,13 +291,13 @@ This project was deployed to GitHub Pages using these steps.
 5.	The page will automatically refresh.
 6.	Scroll back down through the page to locate the now published site link in the "GitHub Pages" section, this will take a few minutes before the link shows your page.
 
-### Forking the GitHub Repository
+### Forking the GitHub Repository  
 Forking a GitHub Repository will make a copy of the original repository on your GitHub account to view, edit or make changes without worrying about affecting the original repository.
 1.	Log in to GitHub and locate the GitHub Repository you wish to fork
 2.	At the top of the Repository, to the right above the "Settings" link on the menu, locate the "Fork" Button and select.
 3.	You should now have a copy of the original repository within your GitHub account.
 
-### Cloning to GitPod
+### Cloning to GitPod  
 1.	Go to [gitpod.io](https://gitpod.io)
 2.	Create an account or sign in
 3.	Open a new window and navigate to the extension store of your browser
@@ -301,15 +305,26 @@ Forking a GitHub Repository will make a copy of the original repository on your 
 -   [Firefox](https://addons.mozilla.org/firefox/addon/gitpod/)
 4.	Accept permissions for the extensions and then return to the repository you wish to clone.
 5.	There should be a green Gitpod button now located to the right, selecting this will open GitHub new repository screen.
-6.	Create a new repository and Gitpod will launch your new repository into the user interface.
+6.	Create a new repository and Gitpod will launch your new repository into the user interface.  
+
+### Making a local clone  
+1.	Log in to GitHub and locate the GitHub Repository  
+2.	Locate the Code button located to the right of the screen, click on this to reveal a sub menu, "Clone or download a zip file should be seen".  
+3.	To clone the repository using HTTPS, under "Clone with HTTPS title", copy the link to your clipboard.
+4.	Open Git Bash  
+5.	Change the current working directory to the location where you wish the cloned directory to be made.  
+6.	Type git clone, and then paste the URL you copied above. e.g., $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY 
+7.	Press Enter and your local clone will start to be created.  
 
 ## Credits and resources used
-### Code snippets
--  Responsive video CSS code was used from this tutorial site [Responsive Video tutorial](https://avexdesigns.com/blog/responsive-youtube-embed*/)  
--  Pie chart code was used from this tutorial and was modified to meet the websites needs, [Pie chart tutorial](https://www.geeksforgeeks.org/how-to-create-a-pie-chart-using-html-css/)  
+### Code snippets  
+-  [Google search central](https://developers.google.com/search/docs/advanced/robots/robots_meta_tag), used for reference to add noindex and nofollow to thankyou page 
+-  [Responsive Video tutorial](https://avexdesigns.com/blog/responsive-youtube-embed*/), used to scale the embedded video on the donate page. 
+-  [Pie chart tutorial](https://www.geeksforgeeks.org/how-to-create-a-pie-chart-using-html-css/), used for helping to create the pie chart on the donation page    
+-  [Invalid/valid code tutorial MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:valid), used for form validation  
 
 ### Images and Icons
--  Main hero image used across the site and the contact us photograph of a guide dog owner and his guide dog were taken by the developer J Hodgkins, who is also the owner of the guide dog.  
+-  Main hero image used across the site, and the contact us form photograph of a guide dog owner and his guide dog were taken by the developer's wife J Hodgkins, who is also the owner of the guide dog.  
 -  Icons used were Font Awesome Free fonts   
 -  In support of Guide Dogs logo next to fundraising group logo is provided by Guide Dogs through their VIP area for volunteer resources.  
 
@@ -320,4 +335,4 @@ Forking a GitHub Repository will make a copy of the original repository on your 
 Thank you to my Tutor Philip Morris, and my mentor Chris Quinn, they both have never questioned my ability even with a disability.  
 I want to thank my wife Jeanmarie and my children for allowing me the spare time to take on this new challenge and for believing in me.  
 
-Everyone at Code Institute and Harlow College who has helped and my online class at Harlow College.
+Everyone at Code Institute and Harlow College for all their help and support.  

@@ -13,14 +13,15 @@ Looking into what was available to the local fundraising group through the main 
 
 To share content this must be done through sharing through a social media page to the regional office or sending a request to post on the page.
 This could mean posts may be missed if the regional office posts frequently or can delay a post appearing if there are current national campaigns happening at the same time.
-The downside to a social platform is that while the reach can be vast, thee pages which share content must be followed or liked to see the post originally.
+The downside to a social platform is that while the reach can be vast, these pages which share content must be followed or liked to see the post originally.
 
 ## User research
-The group were asked for their feedback in relation to the current way the group shares content online.  
+The current members of Hertford and Ware group were asked for their feedback in relation to the current way the group shares content online.  
 The group currently has an active Facebook page where they share updates on events, collections, and activities.  
-Responses have been condensed for consistency   
+Responses have been condensed for consistency.   
+
 ### Questions asked
-Q. **How do you find using Facebook pages to stay up to date with our upcoming evets?**    
+Q. **How do you find using Facebook pages to stay up to date with our upcoming events?**    
 User. _‘Fairly easy if I see the notification, I get a lot and sometimes find it hard to re-find the post as Facebook changes the main timeline.’_  \
 User. _‘I am not on Facebook; I wait for the direct email to let me know when our meetings are so I can volunteer for events’_
 
@@ -42,8 +43,8 @@ Q. **Are there any areas of the current Facebook page which do and do not work w
 User. _‘The ability to share our posts to other pages is great but we have found not all local businesses like Facebook and have asked us for our website so they can see what we are about._  
 _It is great that we can receive comments on our posts and receive feedback or a direct message, but we could share a website just as easily and the direct messages come to me not to the group coordinator or secretary to deal with.’_
 ## Summary
-The research provided an insight into the benefits and downsides to the current platform used, the current platform did indeed offer facilities which the proposed website cannot currently offer due to technologies used.  
-However in connection with each other, the platform and website can offer a positive benefit to all users and work cohesively together leaning on each other’s strengths and weaknesses to better meet the fundraising group’s needs, its users base and business goals to expand and increase revenue.  
+The research provided an insight into the benefits and downsides to the current platform used, the current platform did indeed offer facilities which the proposed website cannot currently offer due to technologies used,  
+however in connection with each other the platform and website can offer a positive benefit to all users and work cohesively together leaning on each other’s strengths and weaknesses to better meet the fundraising group’s needs, its users base and business goals to expand and increase revenue.  
 ## Conclusion
 This project fills this gap by providing an accessible and clear to understand platform for potential residents within their area seeking to volunteer with a local group and promote a sense of community whilst also notifying followers of upcoming events.  
 
