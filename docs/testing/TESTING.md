@@ -128,7 +128,7 @@ NVDA and JAWS were used in some tests, this was software which I own and was run
 
 ## Test results overview  
 Below is an overview of tests undertaken, results of tests are stored in an Excel document for functionality and accessible reasons.  
-Please see attached logs-and-issues.xlsx or view on the GitHub repository.  
+Please see [logs-and-issues.xlsx](logs-and-issues.xlsxx) on the GitHub repository.  
 
 
 | Test             | Homepage | About us | Fundraise | Events & Collections | Contact us | Donate |
@@ -139,7 +139,7 @@ Please see attached logs-and-issues.xlsx or view on the GitHub repository.
 | Tab / Focus      | PASS     | PASS     | PASS      | PASS                 | PASS       | PASS   |
 | Landmark / Regio | PASS     | PASS     | PASS      | PASS                 | PASS       | PASS   |
 | Screen reader    | PASS     | PASS     | PASS      | PASS                 | PASS       | PASS   |
-| Lighthoise - <br>Performance,<br>Accessibility,<br>Best practice,<br>SEO | PASS         |          |           |                      |            |        |
+| Lighthoise - <br>Performance,<br>Accessibility,<br>Best practice,<br>SEO | PASS         | PASS         | PASS          | PASS      | PASS        | PASS       |
 
 ## Validation testing  
 
