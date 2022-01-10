@@ -128,7 +128,7 @@ NVDA and JAWS were used in some tests, this was software which I own and was run
 
 ## Test results overview  
 Below is an overview of tests undertaken, results of tests are stored in an Excel document for functionality and accessible reasons.  
-Please see [logs-and-issues.xlsx](logs-and-issues.xlsxx) on the GitHub repository.  
+Please downoad the [logs-and-issues.xlsx](logs-and-issues.xlsx) from the GitHub repository or [view on Dropbox](https://www.dropbox.com/s/jg8cewama480tzr/logs-and-issues.xlsx?dl=0).  
 
 
 | Test             | Homepage | About us | Fundraise | Events & Collections | Contact us | Donate |
@@ -264,6 +264,7 @@ All simulated screen sizes rendered the website correctly.
 
 ## Logs  
 ### Issue tracking  
-Issues were stored in an [excel sheet](logs-and-issues.xlsx) for functionality.  
+Issues were stored in an excel sheet, logs-and-issues.xlsx for functionality.  
+Please downoad the [logs-and-issues.xlsx](logs-and-issues.xlsx) from the GitHub repository or [view on Dropbox](https://www.dropbox.com/s/jg8cewama480tzr/logs-and-issues.xlsx?dl=0).  
 
 [Back to Repository](https://github.com/JHodgkins/MSP1-Fundraising-Group)  
