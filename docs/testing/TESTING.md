@@ -127,7 +127,7 @@ __Screen Reader software__
 NVDA and JAWS were used in some tests, this was software which I own and was run in real time and not simulated through an extension or virtual environment.  
 
 ## Test results overview  
-Below is an overview of tests undertaken, results of tests are stored in an Excel document for functionality and accessible reasons.  
+Below is an overview of tests undertaken, results of tests are stored in an Excel document for functionality and accessible reasons, the excel document contains 3 sheets of tests.  
 Please downoad the [logs-and-issues.xlsx](logs-and-issues.xlsx) from the GitHub repository or [view on Dropbox](https://www.dropbox.com/s/jg8cewama480tzr/logs-and-issues.xlsx?dl=0).  
 
 
@@ -264,7 +264,7 @@ All simulated screen sizes rendered the website correctly.
 
 ## Logs  
 ### Issue tracking  
-Issues were stored in an excel sheet, logs-and-issues.xlsx for functionality.  
+Issues were stored in an excel sheet, logs-and-issues.xlsx for functionality, the excel socuent contains 3 sheets.    
 Please downoad the [logs-and-issues.xlsx](logs-and-issues.xlsx) from the GitHub repository or [view on Dropbox](https://www.dropbox.com/s/jg8cewama480tzr/logs-and-issues.xlsx?dl=0).  
 
 [Back to Repository](https://github.com/JHodgkins/MSP1-Fundraising-Group)  
