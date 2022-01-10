@@ -264,7 +264,7 @@ All simulated screen sizes rendered the website correctly.
 
 ## Logs  
 ### Issue tracking  
-Issues were stored in an excel sheet, logs-and-issues.xlsx for functionality, the excel socuent contains 3 sheets.    
+Issues were stored in an excel sheet, logs-and-issues.xlsx for functionality, the excel document contains 3 sheets.    
 Please downoad the [logs-and-issues.xlsx](logs-and-issues.xlsx) from the GitHub repository or [view on Dropbox](https://www.dropbox.com/s/jg8cewama480tzr/logs-and-issues.xlsx?dl=0).  
 
 [Back to Repository](https://github.com/JHodgkins/MSP1-Fundraising-Group)  
