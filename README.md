@@ -324,7 +324,7 @@ Forking a GitHub Repository will make a copy of the original repository on your 
 -  [Invalid/valid code tutorial MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:valid), used for form validation  
 
 ### Images and Icons
--  Main hero image used across the site, and the contact us form photograph of a guide dog owner and his guide dog were taken by the developer's wife J Hodgkins, who is also the owner of the guide dog.  
+-  Main hero image used across the site, and the contact us form photograph of a guide dog owner and his guide dog were taken by the developer's wife Jeanmarie Hodgkins, James Hodgkins is the owner of the guide dog.  
 -  Icons used were Font Awesome Free fonts   
 -  In support of Guide Dogs logo next to fundraising group logo is provided by Guide Dogs through their VIP area for volunteer resources.  
 
